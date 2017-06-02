@@ -30,7 +30,7 @@ def rough_hough(filename, img, edges):
         cv2.imwrite(location,img)
 
 def hough(filename, img, edges):
-    lines = cv2.HoughLines(edges,1,np.pi/180,200)
+    lines = cv2.HoughLines(edges,1,np.pi/180,350)
     if(lines is None):
         print "No lines were found."
     else:
@@ -48,7 +48,7 @@ def hough(filename, img, edges):
             #if vertical or horizontal
             if((run == 0) or (abs(float(rise)/(float(run))) < 0.01)):
                 cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
-                location = 'results/ModHough-'+filename+'.jpg'
+                location = 'results/ModHough2-'+filename+'.jpg'
                 cv2.imwrite(location,img)
 
 if __name__ == "__main__":
