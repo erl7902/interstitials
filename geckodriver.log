@@ -1,0 +1,296 @@
+1495735843295	geckodriver	INFO	Listening on 127.0.0.1:52539
+1495735844350	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495735845757	Marionette	INFO	Listening on port 35309
+1495735845866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.flashtalking.com/frameworks/js/api/2/html5API.js, line 3: SyntaxError: JSON.parse: unexpected non-whitespace character after JSON data at line 1 column 2 of the JSON data
+JavaScript error: https://cdn.flashtalking.com/frameworks/js/api/2/html5API.js, line 3: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1495735899140	Marionette	INFO	New connections will no longer be accepted
+1495736185772	geckodriver	INFO	Listening on 127.0.0.1:44291
+1495736186816	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495736188278	Marionette	INFO	Listening on port 38507
+1495736188353	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.flashtalking.com/frameworks/js/api/2/html5API.js, line 3: SyntaxError: JSON.parse: unexpected non-whitespace character after JSON data at line 1 column 2 of the JSON data
+JavaScript error: https://cdn.flashtalking.com/frameworks/js/api/2/html5API.js, line 3: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1495736240990	Marionette	INFO	New connections will no longer be accepted
+[Child 8622] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495736328319	geckodriver	INFO	Listening on 127.0.0.1:46151
+1495736329365	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495736330784	Marionette	INFO	Listening on port 33683
+1495736330883	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8819] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1495736560420	geckodriver	INFO	Listening on 127.0.0.1:35275
+1495736561468	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495736562890	Marionette	INFO	Listening on port 38893
+1495736562979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495736615915	Marionette	INFO	New connections will no longer be accepted
+1495736671599	geckodriver	INFO	Listening on 127.0.0.1:33153
+1495736672657	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495736674118	Marionette	INFO	Listening on port 44527
+1495736674193	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://cdn.flashtalking.com/frameworks/js/api/2/html5API.js, line 3: SyntaxError: JSON.parse: unexpected non-whitespace character after JSON data at line 1 column 2 of the JSON data
+1495736726651	Marionette	INFO	New connections will no longer be accepted
+1495737179409	geckodriver	INFO	Listening on 127.0.0.1:50799
+1495737180469	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495737181834	Marionette	INFO	Listening on port 37973
+1495737181908	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495737277263	geckodriver	INFO	Listening on 127.0.0.1:41279
+1495737278332	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495737280164	Marionette	INFO	Listening on port 43165
+1495737280245	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495737386108	Marionette	INFO	New connections will no longer be accepted
+[Child 9819] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495737475205	geckodriver	INFO	Listening on 127.0.0.1:57813
+1495737476281	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495737477755	Marionette	INFO	Listening on port 40239
+1495737477826	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=9319114&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssY1nHD_ErPfKyPVL9bWhN-4BvjZaU2KGVQkF0jLWav6HarA-AbFXFvxiFsiZJN01pSmz6Hli3grp-_VDIXsRp_1j3d3H55TvnktOB3gEToU-7zKk4xvQKlgQcDXKmlouEHPWY_yEF5yhVWhwq7VGcTZg4QLGF2W3uo3yYliGyN57qcB7RoInEsTu2tn8DKg-m10CHUCkVJA8NKb6xQ-SeJZvuPKkIIsH0MleirVZuNWuu7f4ndiScDEIla6se9THwDOYrh%26sig%3DCg0ArKJSzPZGhJKHHIp7EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=9319114&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssY1nHD_ErPfKyPVL9bWhN-4BvjZaU2KGVQkF0jLWav6HarA-AbFXFvxiFsiZJN01pSmz6Hli3grp-_VDIXsRp_1j3d3H55TvnktOB3gEToU-7zKk4xvQKlgQcDXKmlouEHPWY_yEF5yhVWhwq7VGcTZg4QLGF2W3uo3yYliGyN57qcB7RoInEsTu2tn8DKg-m10CHUCkVJA8NKb6xQ-SeJZvuPKkIIsH0MleirVZuNWuu7f4ndiScDEIla6se9THwDOYrh%26sig%3DCg0ArKJSzPZGhJKHHIp7EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1495737654776	Marionette	INFO	New connections will no longer be accepted
+[Child 10112] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495737710544	geckodriver	INFO	Listening on 127.0.0.1:36409
+1495737711622	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495737713076	Marionette	INFO	Listening on port 39801
+1495737713139	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1892138437&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjst3DNbkUDF8gQGL4DrJOPB4pchpM2k5WKnO_gQZ3DNujkquzTYNUpyPQWRD9eKbgR4Jev2dZ_zOe7wGA3En3cVwL4q-ZgwwoEOeivEglhXE7Oo-8vEvm9-mFRIBt9YjD0pWVUOqF9ttArEBu-2E7OULiPiAT9OPkzXbjCTAp8QCT-ANjIYjy7spaOhzSkzvSVcmQznLePifSJegUynd9dEkhz_r4QBDHmRJ8aVyRl-sRUt0BrnKaqspOru1b-YxuK6IXRta%26sig%3DCg0ArKJSzAWzzh9X-kcFEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1892138437&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjst3DNbkUDF8gQGL4DrJOPB4pchpM2k5WKnO_gQZ3DNujkquzTYNUpyPQWRD9eKbgR4Jev2dZ_zOe7wGA3En3cVwL4q-ZgwwoEOeivEglhXE7Oo-8vEvm9-mFRIBt9YjD0pWVUOqF9ttArEBu-2E7OULiPiAT9OPkzXbjCTAp8QCT-ANjIYjy7spaOhzSkzvSVcmQznLePifSJegUynd9dEkhz_r4QBDHmRJ8aVyRl-sRUt0BrnKaqspOru1b-YxuK6IXRta%26sig%3DCg0ArKJSzAWzzh9X-kcFEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.5032758988816958, line 7: SyntaxError: expected expression, got ';'
+1495737880494	Marionette	INFO	New connections will no longer be accepted
+[Child 10471] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495738252028	geckodriver	INFO	Listening on 127.0.0.1:58081
+1495738253077	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495738254459	Marionette	INFO	Listening on port 36599
+1495738254494	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=310716733&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstolstWq0zlMLRtqPGSKxpdX68As2rJrJXfEA_U_kbzXoFAe_6REoZ5JvRTR8AqskDb9KGAxTkK80qKKiL6j4e-zdUqPLlUvKe94-UuA2zt6ECvEAY8vrgiZJH3yje6eNXih2QnidMVbSNBLTwlOAivszrBLUK8CWjlAzP_cvsR_d0mM2RNPsgXoOHpFGzaP0bKTlU20bGggwoS-ilCHDKus7sD3stDedes3UK6vTe-jAm49ocMHGDK94wfeESJ86jZAZqM%26sig%3DCg0ArKJSzE90R39IuGANEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=310716733&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstolstWq0zlMLRtqPGSKxpdX68As2rJrJXfEA_U_kbzXoFAe_6REoZ5JvRTR8AqskDb9KGAxTkK80qKKiL6j4e-zdUqPLlUvKe94-UuA2zt6ECvEAY8vrgiZJH3yje6eNXih2QnidMVbSNBLTwlOAivszrBLUK8CWjlAzP_cvsR_d0mM2RNPsgXoOHpFGzaP0bKTlU20bGggwoS-ilCHDKus7sD3stDedes3UK6vTe-jAm49ocMHGDK94wfeESJ86jZAZqM%26sig%3DCg0ArKJSzE90R39IuGANEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+1495738496436	Marionette	INFO	New connections will no longer be accepted
+[Child 10889] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495738507189	geckodriver	INFO	Listening on 127.0.0.1:39607
+1495738508268	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495738509843	Marionette	INFO	Listening on port 37635
+1495738509903	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn.flashtalking.com/frameworks/js/api/2/html5API.js, line 3: SyntaxError: JSON.parse: unexpected non-whitespace character after JSON data at line 1 column 2 of the JSON data
+JavaScript error: https://cdn.flashtalking.com/frameworks/js/api/2/html5API.js, line 3: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=873521727&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvc3UQ21L9Ti1kSoDaccpzfK_SzrCVCuGVDmMInK1XNn6oMm6mhbXrpyVFErhQ5BELK7Vm0N03PFblll9wbRJpfMBO7f1ZUsZclQKVu6CC4oJ88SfK5gmiNvvIZuUILgh4imGW00G3F8VHsW09SOLVlCr67_AGJxGolNv9psMxyPu4YhcJaOeFci-G8ZWzRI1OetvC0UYN2Z5s1SYC7qU6xDOuKnuJWDfessRjnz3hH8unEm_VwghZqR7pxX9UMqShxruEF%26sig%3DCg0ArKJSzBOKisD1NBDpEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=873521727&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvc3UQ21L9Ti1kSoDaccpzfK_SzrCVCuGVDmMInK1XNn6oMm6mhbXrpyVFErhQ5BELK7Vm0N03PFblll9wbRJpfMBO7f1ZUsZclQKVu6CC4oJ88SfK5gmiNvvIZuUILgh4imGW00G3F8VHsW09SOLVlCr67_AGJxGolNv9psMxyPu4YhcJaOeFci-G8ZWzRI1OetvC0UYN2Z5s1SYC7qU6xDOuKnuJWDfessRjnz3hH8unEm_VwghZqR7pxX9UMqShxruEF%26sig%3DCg0ArKJSzBOKisD1NBDpEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+1495738754605	Marionette	INFO	New connections will no longer be accepted
+[Child 11179] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495746177871	geckodriver	INFO	Listening on 127.0.0.1:55569
+1495746178954	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495746180407	Marionette	INFO	Listening on port 46125
+1495746180467	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1495746320604	geckodriver	INFO	Listening on 127.0.0.1:34993
+1495746321656	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495746323074	Marionette	INFO	Listening on port 46325
+1495746323170	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=898964597&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssga1SW3TDwpukr-RPMlrUN0zf7tu5DW5NTic5fNwPEETAfg-R-gofyf2dzwPERMz1S_MxAFWEhDapvcfOe2ALz1vr0xLLa15er3VYWh7xxxIWOfteOcDM8VXqi8FYnmKC1CnzXA9N-cKjl4WHB5wtL7AyGptzkKPJqegqXLGWa2EBC1EqJjyRDRrkwbPjlW2REK9cyVVd9vz0e8KHrJ64CLvXVUWNd_8x0_iADXOfgFEZnlrp_Bs9NmGgAkonvr7caxPv-%26sig%3DCg0ArKJSzJWAshXcBRRqEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=898964597&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssga1SW3TDwpukr-RPMlrUN0zf7tu5DW5NTic5fNwPEETAfg-R-gofyf2dzwPERMz1S_MxAFWEhDapvcfOe2ALz1vr0xLLa15er3VYWh7xxxIWOfteOcDM8VXqi8FYnmKC1CnzXA9N-cKjl4WHB5wtL7AyGptzkKPJqegqXLGWa2EBC1EqJjyRDRrkwbPjlW2REK9cyVVd9vz0e8KHrJ64CLvXVUWNd_8x0_iADXOfgFEZnlrp_Bs9NmGgAkonvr7caxPv-%26sig%3DCg0ArKJSzJWAshXcBRRqEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+1495746503518	Marionette	INFO	New connections will no longer be accepted
+[Child 13332] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495747156151	geckodriver	INFO	Listening on 127.0.0.1:49285
+1495747157207	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495747158691	Marionette	INFO	Listening on port 36827
+1495747158728	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=651825297&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvqvz2xbsY76ZMUZlUh038smcIoLqPdFeM6EBzV5-yd5-Q5zkgoCGZatSpZDJ4LnaDfFAbOUk_GpSOh7wcevGVPizfJjuEI3N_JXN7nASLMgIT-lOkG2aqI8oS7X2NcYeXbT9t9B9Qd2d5u1FjCRKjfn-ghsJHER07TL_t_39qimmWnG7pe-9piznlH5GmmDR2Pcm1nSYU_d4ABzsbZNmFG1ZfONVFMZ5gwQ9nRdvBa4lnuh1WUaC-SucO_-K5oAIW6ZVur%26sig%3DCg0ArKJSzGxfRLggzjBuEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=651825297&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvqvz2xbsY76ZMUZlUh038smcIoLqPdFeM6EBzV5-yd5-Q5zkgoCGZatSpZDJ4LnaDfFAbOUk_GpSOh7wcevGVPizfJjuEI3N_JXN7nASLMgIT-lOkG2aqI8oS7X2NcYeXbT9t9B9Qd2d5u1FjCRKjfn-ghsJHER07TL_t_39qimmWnG7pe-9piznlH5GmmDR2Pcm1nSYU_d4ABzsbZNmFG1ZfONVFMZ5gwQ9nRdvBa4lnuh1WUaC-SucO_-K5oAIW6ZVur%26sig%3DCg0ArKJSzGxfRLggzjBuEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://sdk.streamrail.com/player/sr.ads.js?cb=1495747289895, line 0: Successfully compiled asm.js code (total compilation time 3ms; not stored in cache (too small to benefit))
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://sp.pcnetwizard.com/sas/ads/prod/minJS/v2vEngine.js?v=201742514, line 1: unreachable code after return statement
+JavaScript warning: https://sp.pcnetwizard.com/sas/ads/prod/minJS/v2vEngine.js?v=201742514, line 1: unreachable code after return statement
+JavaScript warning: https://sp.pcnetwizard.com/sas/ads/prod/minJS/v2vEngine.js?v=201742514, line 1: unreachable code after return statement
+1495747328571	Marionette	INFO	New connections will no longer be accepted
+[Child 13824] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495747376953	geckodriver	INFO	Listening on 127.0.0.1:57139
+1495747378013	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495747402496	geckodriver	INFO	Listening on 127.0.0.1:37207
+1495747403553	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495747404982	Marionette	INFO	Listening on port 40513
+1495747405066	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=611250303&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssyHOxN5V1r1DiH_IKrSNBA0eCm3u8tISb16UU5aLZ2ga6ZKvk3g_vuZIIfGFwQo9DGi9VrtgVJYCi-MPgFO_VEJJCHTu_E0iWcoQxJImhTwQc04S4FsjJRECff7-T6z1sqRUSlEh0hTQ6KLwuGqtF8b5EwcRxu0gXGAgQcSwzlAQygO8MIXA5PnOhh-dL9oqjSYdVbSeqVw-yyOtyqZFHA24P9LxFvk_PZpxrWEKgICk5ggJAPr3QZDxng1qg1wu0DOQpI%26sig%3DCg0ArKJSzBiwjaIfAiLxEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=611250303&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssyHOxN5V1r1DiH_IKrSNBA0eCm3u8tISb16UU5aLZ2ga6ZKvk3g_vuZIIfGFwQo9DGi9VrtgVJYCi-MPgFO_VEJJCHTu_E0iWcoQxJImhTwQc04S4FsjJRECff7-T6z1sqRUSlEh0hTQ6KLwuGqtF8b5EwcRxu0gXGAgQcSwzlAQygO8MIXA5PnOhh-dL9oqjSYdVbSeqVw-yyOtyqZFHA24P9LxFvk_PZpxrWEKgICk5ggJAPr3QZDxng1qg1wu0DOQpI%26sig%3DCg0ArKJSzBiwjaIfAiLxEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript warning: https://sdk.streamrail.com/player/sr.ads.js?cb=1495747537998, line 0: Successfully compiled asm.js code (total compilation time 3ms; not stored in cache (too small to benefit))
+1495747572187	Marionette	INFO	New connections will no longer be accepted
+[Child 14264] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495748267814	geckodriver	INFO	Listening on 127.0.0.1:33945
+1495748268898	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495748270304	Marionette	INFO	Listening on port 35743
+1495748270415	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=445337002&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjss6wQ9Xe3SaVu7uduQ6sYey9oRgui0BiZ1gDjBBqP3axO4In-8TDSytZGpFxzUL7SNElOZpOGYVHQtm1f2vg3QbaDiWBGbDT6bxpeofA5pj3FyU1Jj17GSfnGhSu4Hk1prfdegzTBndYlnrXuZ5V3Aw309KHH4AvmT4-FwcMSQ8kpKFfYNpIT9JeiRpercPbGoxEpzKVvkzBW_8wUEgNwuqgUXC2bdPejQZoDM1awyUGzL22E7TCAz0M6WGWUBNePtMQSfw%26sig%3DCg0ArKJSzEgBCMy91KX-EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=445337002&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjss6wQ9Xe3SaVu7uduQ6sYey9oRgui0BiZ1gDjBBqP3axO4In-8TDSytZGpFxzUL7SNElOZpOGYVHQtm1f2vg3QbaDiWBGbDT6bxpeofA5pj3FyU1Jj17GSfnGhSu4Hk1prfdegzTBndYlnrXuZ5V3Aw309KHH4AvmT4-FwcMSQ8kpKFfYNpIT9JeiRpercPbGoxEpzKVvkzBW_8wUEgNwuqgUXC2bdPejQZoDM1awyUGzL22E7TCAz0M6WGWUBNePtMQSfw%26sig%3DCg0ArKJSzEgBCMy91KX-EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.0052240354678985135, line 7: SyntaxError: expected expression, got ';'
+1495748505050	Marionette	INFO	New connections will no longer be accepted
+[Child 14762] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495748550204	geckodriver	INFO	Listening on 127.0.0.1:38163
+1495748551265	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495748552661	Marionette	INFO	Listening on port 36053
+1495748552700	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1813203352&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuwhIir_ox1CJrXFOqZsFRBORjrn9Srml2WxKsDRAxleundOgsirkwq9CydkWPWUmztM7QeKGRFscMeHJ_G5D9qmHsPxGhT0h1J4F_fpSOutan_g3M-xj0kPpURTcavC5F4R00CU2hIJZhyPlYwEygaxMC4ejZQ_3IFghXab_hDScDj8htZvpP54lVGuguVVlcbbR1U5UKiEh_qsuOZYC01-R_95XaOm4xc-suuNPlSxVRpYFNbzBe_5LY8tobuMAyEKNBi%26sig%3DCg0ArKJSzPJ3CNPN6WqjEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1813203352&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuwhIir_ox1CJrXFOqZsFRBORjrn9Srml2WxKsDRAxleundOgsirkwq9CydkWPWUmztM7QeKGRFscMeHJ_G5D9qmHsPxGhT0h1J4F_fpSOutan_g3M-xj0kPpURTcavC5F4R00CU2hIJZhyPlYwEygaxMC4ejZQ_3IFghXab_hDScDj8htZvpP54lVGuguVVlcbbR1U5UKiEh_qsuOZYC01-R_95XaOm4xc-suuNPlSxVRpYFNbzBe_5LY8tobuMAyEKNBi%26sig%3DCg0ArKJSzPJ3CNPN6WqjEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.04495944764867632, line 7: SyntaxError: expected expression, got ';'
+1495748750767	Marionette	INFO	New connections will no longer be accepted
+[Child 15204] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495749125623	geckodriver	INFO	Listening on 127.0.0.1:60859
+1495749126703	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495749128139	Marionette	INFO	Listening on port 33673
+1495749128217	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1495749183366	geckodriver	INFO	Listening on 127.0.0.1:37877
+1495749184445	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495749185888	Marionette	INFO	Listening on port 38501
+1495749185958	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1871811824&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstHdYE1FTHh7DmBzqsQ9q0xyuDRvRINhHFB1YCG13KCUKJq4PIuE-z6eVBstCAMuQCUHy7PYI-urIrE2wGzKm1Lny6ml3o1XKs1hiQA4LT5zDSy7mPUWrQ25RqhNZwmH9A37vu4z6J5xSF-Hw2XJApTxscRQ7vszRm82euuBkHWY3QDmDHL9Viu2F6OH2XWozB4vPAnWa1v5oIh557USePcNnc5eRZir0wCjx8pM2x9Y58KAAXcdzRZAEEMScce9CghZ_wJ%26sig%3DCg0ArKJSzBCOwgItWtc0EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1871811824&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstHdYE1FTHh7DmBzqsQ9q0xyuDRvRINhHFB1YCG13KCUKJq4PIuE-z6eVBstCAMuQCUHy7PYI-urIrE2wGzKm1Lny6ml3o1XKs1hiQA4LT5zDSy7mPUWrQ25RqhNZwmH9A37vu4z6J5xSF-Hw2XJApTxscRQ7vszRm82euuBkHWY3QDmDHL9Viu2F6OH2XWozB4vPAnWa1v5oIh557USePcNnc5eRZir0wCjx8pM2x9Y58KAAXcdzRZAEEMScce9CghZ_wJ%26sig%3DCg0ArKJSzBCOwgItWtc0EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.33365166703859106, line 7: SyntaxError: expected expression, got ';'
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1709766031&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvHvJ470zCg0AoGTP2hIw3k1LbTlqdumWf9dLn1TtZNsA7p8A0nS0vjwUmdBpCTlUtgm_4WK00pjTknRlLSCCamUQL4H2d-vzY9xWkd-_37Nxzg-S3j3FL3AwhtDjH0whG225yufMAvydHe--tH5ZGh646q6LV9ZDCwwFqE4h4sFlSct5foFmdL9ROaLgxHkm1FHrVILS_nr-IVHTmO5dUWrwAfuQ-zS0K852Hk_6EmM7yd4oqTDtMJRZf3lts3-jAhfy8s%26sig%3DCg0ArKJSzDyo-SDU480WEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1709766031&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvHvJ470zCg0AoGTP2hIw3k1LbTlqdumWf9dLn1TtZNsA7p8A0nS0vjwUmdBpCTlUtgm_4WK00pjTknRlLSCCamUQL4H2d-vzY9xWkd-_37Nxzg-S3j3FL3AwhtDjH0whG225yufMAvydHe--tH5ZGh646q6LV9ZDCwwFqE4h4sFlSct5foFmdL9ROaLgxHkm1FHrVILS_nr-IVHTmO5dUWrwAfuQ-zS0K852Hk_6EmM7yd4oqTDtMJRZf3lts3-jAhfy8s%26sig%3DCg0ArKJSzDyo-SDU480WEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1709766031&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvHvJ470zCg0AoGTP2hIw3k1LbTlqdumWf9dLn1TtZNsA7p8A0nS0vjwUmdBpCTlUtgm_4WK00pjTknRlLSCCamUQL4H2d-vzY9xWkd-_37Nxzg-S3j3FL3AwhtDjH0whG225yufMAvydHe--tH5ZGh646q6LV9ZDCwwFqE4h4sFlSct5foFmdL9ROaLgxHkm1FHrVILS_nr-IVHTmO5dUWrwAfuQ-zS0K852Hk_6EmM7yd4oqTDtMJRZf3lts3-jAhfy8s%26sig%3DCg0ArKJSzDyo-SDU480WEAE%26urlfix%3D1%26adurl%3D, line 116: ReferenceError: Mb is not defined
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+1495749453465	Marionette	INFO	New connections will no longer be accepted
+[Child 15911] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495749499577	geckodriver	INFO	Listening on 127.0.0.1:56811
+1495749500622	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495749502001	Marionette	INFO	Listening on port 35953
+1495749502038	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+1495749629483	geckodriver	INFO	Listening on 127.0.0.1:36079
+1495749630563	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495749632067	Marionette	INFO	Listening on port 32933
+1495749632100	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1495750050169	geckodriver	INFO	Listening on 127.0.0.1:53839
+1495750051226	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495750052723	Marionette	INFO	Listening on port 40395
+1495750052762	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1673673848&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsttpmWBlChF2tg7udIyLHX57FoSq_hXATTyeHcy75aSm98mKGvamXtIeIRLhGnkEeknXG87glizCNEIm6NtHtixgQRNiZjzX0dY-ZPp_LpPsO10ai8Au7uGh-WY40Tgp80zcM8TvcIgmbqjZCXOANEt7qXxSZkPIHXI_ayaq34q97y3fM5W_wzE_hJKhn1ptCHviHN1oT98bdnikNhOFxEh8kgys7NaL7xaOrByo4Ox0O_SyTElXFk5yrAtqzvFW-uC3OLA%26sig%3DCg0ArKJSzDTTY8ey0ZN0EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1673673848&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsttpmWBlChF2tg7udIyLHX57FoSq_hXATTyeHcy75aSm98mKGvamXtIeIRLhGnkEeknXG87glizCNEIm6NtHtixgQRNiZjzX0dY-ZPp_LpPsO10ai8Au7uGh-WY40Tgp80zcM8TvcIgmbqjZCXOANEt7qXxSZkPIHXI_ayaq34q97y3fM5W_wzE_hJKhn1ptCHviHN1oT98bdnikNhOFxEh8kgys7NaL7xaOrByo4Ox0O_SyTElXFk5yrAtqzvFW-uC3OLA%26sig%3DCg0ArKJSzDTTY8ey0ZN0EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.966654184239365, line 7: SyntaxError: expected expression, got ';'
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1679155147&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstXIs1QdzjlODZWCWnYVkWhrSRkakcyU9q_G1I0CsCPmoPiYZ6UeubY_vdOy0PeI4_XLlTiMia4SHIRhw62OGMxqvWkY9JgHM50kje9okF7ztmM9isgpfGcWYx5KLmyZ2m7O9IWtta9mG4PG59JclP3A1vo8YbfjjVnIUBrO2dkC9x8qaovoK28Y5eTNPLIHaPwL58aQaeJA_qYq-cCtv2aDuugvyDqDrpy0H7335rSX9kt8ARrsXn9vUvbjJQNFkbfDHj7%26sig%3DCg0ArKJSzMV9Kz7gmf1VEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1679155147&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstXIs1QdzjlODZWCWnYVkWhrSRkakcyU9q_G1I0CsCPmoPiYZ6UeubY_vdOy0PeI4_XLlTiMia4SHIRhw62OGMxqvWkY9JgHM50kje9okF7ztmM9isgpfGcWYx5KLmyZ2m7O9IWtta9mG4PG59JclP3A1vo8YbfjjVnIUBrO2dkC9x8qaovoK28Y5eTNPLIHaPwL58aQaeJA_qYq-cCtv2aDuugvyDqDrpy0H7335rSX9kt8ARrsXn9vUvbjJQNFkbfDHj7%26sig%3DCg0ArKJSzMV9Kz7gmf1VEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1679155147&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstXIs1QdzjlODZWCWnYVkWhrSRkakcyU9q_G1I0CsCPmoPiYZ6UeubY_vdOy0PeI4_XLlTiMia4SHIRhw62OGMxqvWkY9JgHM50kje9okF7ztmM9isgpfGcWYx5KLmyZ2m7O9IWtta9mG4PG59JclP3A1vo8YbfjjVnIUBrO2dkC9x8qaovoK28Y5eTNPLIHaPwL58aQaeJA_qYq-cCtv2aDuugvyDqDrpy0H7335rSX9kt8ARrsXn9vUvbjJQNFkbfDHj7%26sig%3DCg0ArKJSzMV9Kz7gmf1VEAE%26urlfix%3D1%26adurl%3D, line 116: ReferenceError: Mb is not defined
+JavaScript warning: https://static-cdn.adblade.com/js/jquery/jquery.current.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+1495750252526	Marionette	INFO	New connections will no longer be accepted
+[Child 16990] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495754726606	geckodriver	INFO	Listening on 127.0.0.1:49069
+1495754727688	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495754729146	Marionette	INFO	Listening on port 36271
+1495754729212	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495817452926	geckodriver	INFO	Listening on 127.0.0.1:39503
+1495817454011	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495817455585	Marionette	INFO	Listening on port 45293
+1495817455653	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1366760660&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuuJYvQ40F_MN1Wreb0Db9xx5e39H16Ij2M8J7gvScbeEVP93IXUxqacwQsngNkDHotwItIFFkGk3QqzSgKVXidsNf1LND97DabVOTLeziXdSs2O64L2idcPkTjEQU8yzfDsaJLVPRoVoLipp2eihBbKDEVSXw3IxeVg0pmYPSrpVeGdty6PLcXvz5lOHHG0LDodp4LJazXK73EdljzMDyjpyrc0WKPIVIL35UDW3Ri8mqKjpNbJPZq31AdS8nzExvQRFN7%26sig%3DCg0ArKJSzIZXlQO0yPP-EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1366760660&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuuJYvQ40F_MN1Wreb0Db9xx5e39H16Ij2M8J7gvScbeEVP93IXUxqacwQsngNkDHotwItIFFkGk3QqzSgKVXidsNf1LND97DabVOTLeziXdSs2O64L2idcPkTjEQU8yzfDsaJLVPRoVoLipp2eihBbKDEVSXw3IxeVg0pmYPSrpVeGdty6PLcXvz5lOHHG0LDodp4LJazXK73EdljzMDyjpyrc0WKPIVIL35UDW3Ri8mqKjpNbJPZq31AdS8nzExvQRFN7%26sig%3DCg0ArKJSzIZXlQO0yPP-EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1316732368&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssGPQ-LUj3psiDsAo5bIi-lMlWWK2cTSJlKt3TzB7bP-ThHtCr1W5RYEwI1lhQOZVo1rmlBqdz5qp-IRnO0R1lYr21POFAMIVdy6uXE3stnyE_PgSjR_a65od9wIV8ScjA92lvjXqNAkGyF8sNO5gUwNkBemD28m5YO6g1suWH9MbQACE6enteBt7Wke4oTo-xXyKdNnjErtcyy9fqNMOEV7G44lmIC-L-6uc2XPK1jEGkwOpwuIAEwkkcXux-Gku86I5Ju%26sig%3DCg0ArKJSzCXcgfIK21lCEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1316732368&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssGPQ-LUj3psiDsAo5bIi-lMlWWK2cTSJlKt3TzB7bP-ThHtCr1W5RYEwI1lhQOZVo1rmlBqdz5qp-IRnO0R1lYr21POFAMIVdy6uXE3stnyE_PgSjR_a65od9wIV8ScjA92lvjXqNAkGyF8sNO5gUwNkBemD28m5YO6g1suWH9MbQACE6enteBt7Wke4oTo-xXyKdNnjErtcyy9fqNMOEV7G44lmIC-L-6uc2XPK1jEGkwOpwuIAEwkkcXux-Gku86I5Ju%26sig%3DCg0ArKJSzCXcgfIK21lCEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1316732368&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssGPQ-LUj3psiDsAo5bIi-lMlWWK2cTSJlKt3TzB7bP-ThHtCr1W5RYEwI1lhQOZVo1rmlBqdz5qp-IRnO0R1lYr21POFAMIVdy6uXE3stnyE_PgSjR_a65od9wIV8ScjA92lvjXqNAkGyF8sNO5gUwNkBemD28m5YO6g1suWH9MbQACE6enteBt7Wke4oTo-xXyKdNnjErtcyy9fqNMOEV7G44lmIC-L-6uc2XPK1jEGkwOpwuIAEwkkcXux-Gku86I5Ju%26sig%3DCg0ArKJSzCXcgfIK21lCEAE%26urlfix%3D1%26adurl%3D, line 116: ReferenceError: Mb is not defined
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript warning: https://sdk.streamrail.com/player/sr.ads.js?cb=1495817860166, line 0: Successfully compiled asm.js code (total compilation time 2ms; not stored in cache (too small to benefit))
+1495817939058	Marionette	INFO	New connections will no longer be accepted
+1495836801637	geckodriver	INFO	Listening on 127.0.0.1:34991
+1495836802699	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1495836804062	Marionette	INFO	Listening on port 45825
+1495836804132	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1965085689&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssC3r-u8znd0c3UFpE4xQZJq8-rJQHUmqGH2LKeWizAqc8lOqF57M6k8v5wSl_r-ZBy5JSU2TlEpGaHRkh89WPvmz3RB8F76qNvu1fW_eKF5T5QQ4Mz_iih3-dBgOe9OiEILriJUZzW7EhGL6LwUcvnavX3KW7bMFTZR0fr4K_0NaKP-9zsj5HKWUcTyzXDAR4ENNTs7Jt8pbZvVUK4KqGkbX6NjaI4QfDKnU5u9Sna8ww79iPDcLjB2Iu_dB8hy2415JQn%26sig%3DCg0ArKJSzL_1WX10aYu4EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1965085689&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssC3r-u8znd0c3UFpE4xQZJq8-rJQHUmqGH2LKeWizAqc8lOqF57M6k8v5wSl_r-ZBy5JSU2TlEpGaHRkh89WPvmz3RB8F76qNvu1fW_eKF5T5QQ4Mz_iih3-dBgOe9OiEILriJUZzW7EhGL6LwUcvnavX3KW7bMFTZR0fr4K_0NaKP-9zsj5HKWUcTyzXDAR4ENNTs7Jt8pbZvVUK4KqGkbX6NjaI4QfDKnU5u9Sna8ww79iPDcLjB2Iu_dB8hy2415JQn%26sig%3DCg0ArKJSzL_1WX10aYu4EAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=402270471&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstbgEKq3ZMhvqTkbWK_AHfwiBYjnYS5GM4PIrtx6K02v0PIBzuJpMiLWDFsZigv5VFYOVS_ZKCbejCA9awB_PR1YiqwO-SPypKLNd8SajzAPkdmYXyGI2oIAtIRyoHjQSBuDgLkcvpYMZLH6UHAnzF0nyngieoixXDJyDaY0r-vrsGt6Hzv28WIgE48-_F7gd98kIzsxg9DCtQMd8Ws8wFRJEhW26jlhdpQn-PJ-QhNa4yR73kL5ltahN8cwoFO3pt0DL_x%26sig%3DCg0ArKJSzNEpSyzKhpckEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=402270471&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstbgEKq3ZMhvqTkbWK_AHfwiBYjnYS5GM4PIrtx6K02v0PIBzuJpMiLWDFsZigv5VFYOVS_ZKCbejCA9awB_PR1YiqwO-SPypKLNd8SajzAPkdmYXyGI2oIAtIRyoHjQSBuDgLkcvpYMZLH6UHAnzF0nyngieoixXDJyDaY0r-vrsGt6Hzv28WIgE48-_F7gd98kIzsxg9DCtQMd8Ws8wFRJEhW26jlhdpQn-PJ-QhNa4yR73kL5ltahN8cwoFO3pt0DL_x%26sig%3DCg0ArKJSzNEpSyzKhpckEAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/syncroll/1487/loader.js?rnd=402270471&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstbgEKq3ZMhvqTkbWK_AHfwiBYjnYS5GM4PIrtx6K02v0PIBzuJpMiLWDFsZigv5VFYOVS_ZKCbejCA9awB_PR1YiqwO-SPypKLNd8SajzAPkdmYXyGI2oIAtIRyoHjQSBuDgLkcvpYMZLH6UHAnzF0nyngieoixXDJyDaY0r-vrsGt6Hzv28WIgE48-_F7gd98kIzsxg9DCtQMd8Ws8wFRJEhW26jlhdpQn-PJ-QhNa4yR73kL5ltahN8cwoFO3pt0DL_x%26sig%3DCg0ArKJSzNEpSyzKhpckEAE%26urlfix%3D1%26adurl%3D, line 116: ReferenceError: Mb is not defined
+JavaScript warning: https://sdk.streamrail.com/player/sr.ads.js?cb=1495836968969, line 0: Successfully compiled asm.js code (total compilation time 1ms; not stored in cache (too small to benefit))
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript warning: https://cdn.jivox.com/95948/11/31954-0-ajs5655e3b852bb2gz.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1495837115237	Marionette	INFO	New connections will no longer be accepted
+[Child 8670] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1496182362787	geckodriver	INFO	Listening on 127.0.0.1:46673
+1496182363864	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496182365423	Marionette	INFO	Listening on port 45525
+1496182365487	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1187724470&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstiJG0lS__9RFn0yHOrrj5zlT3nqKjYrrvRJqkikOKK7qaV3FwkLVN0m_5okkVK7R2PVaNxvfokhrJKTvW4arCvYiNYRylz9pkfDtaQvp0wzjUUPP-4pg_Ts41xyTJ7mGwPjNIjiIAz04gdaeA-lPstmTRZaaB6ampXXma3bOfWOaqqy1gKeoVviZnaIjL6xdLmcM8IZiGgxpvwLBSdhwKLWtKqaB68-5DfDhLtNVHT4-3jMRHtZDRCQvcz56_5kERMI9V0%26sig%3DCg0ArKJSzE8gr0pMkSLQEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1187724470&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstiJG0lS__9RFn0yHOrrj5zlT3nqKjYrrvRJqkikOKK7qaV3FwkLVN0m_5okkVK7R2PVaNxvfokhrJKTvW4arCvYiNYRylz9pkfDtaQvp0wzjUUPP-4pg_Ts41xyTJ7mGwPjNIjiIAz04gdaeA-lPstmTRZaaB6ampXXma3bOfWOaqqy1gKeoVviZnaIjL6xdLmcM8IZiGgxpvwLBSdhwKLWtKqaB68-5DfDhLtNVHT4-3jMRHtZDRCQvcz56_5kERMI9V0%26sig%3DCg0ArKJSzE8gr0pMkSLQEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.7388329404204742, line 7: SyntaxError: expected expression, got ';'
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=836026210&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstvkPf5yMQ2zybA-XG2xpWVTTXKOxZOUHwofo0dV6Lh-W_lXlkcP_RTsiWP_9ULy5tn1ck33F8-iEGKXnGYxTodQF9Ke4VFMfwRX6ZjBlExPyh-gWRyRidtcw-Q6PlAO0UvXjVFvcwLvO9FZF3u8fZ3fJphjH2XjqORFcPqGQMJq88Y-_IfaINJWFLQTWDNcQtTB3CsolqJdIncj_H-3vm-3SnRm628FKbZr5mriji_DHnU0GdQ0Ls4zgi_WStLwSwdISXA%26sig%3DCg0ArKJSzIEA2Etn5by3EAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=836026210&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstvkPf5yMQ2zybA-XG2xpWVTTXKOxZOUHwofo0dV6Lh-W_lXlkcP_RTsiWP_9ULy5tn1ck33F8-iEGKXnGYxTodQF9Ke4VFMfwRX6ZjBlExPyh-gWRyRidtcw-Q6PlAO0UvXjVFvcwLvO9FZF3u8fZ3fJphjH2XjqORFcPqGQMJq88Y-_IfaINJWFLQTWDNcQtTB3CsolqJdIncj_H-3vm-3SnRm628FKbZr5mriji_DHnU0GdQ0Ls4zgi_WStLwSwdISXA%26sig%3DCg0ArKJSzIEA2Etn5by3EAE%26urlfix%3D1%26adurl%3D, line 68: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/syncroll/1487/loader.js?rnd=836026210&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstvkPf5yMQ2zybA-XG2xpWVTTXKOxZOUHwofo0dV6Lh-W_lXlkcP_RTsiWP_9ULy5tn1ck33F8-iEGKXnGYxTodQF9Ke4VFMfwRX6ZjBlExPyh-gWRyRidtcw-Q6PlAO0UvXjVFvcwLvO9FZF3u8fZ3fJphjH2XjqORFcPqGQMJq88Y-_IfaINJWFLQTWDNcQtTB3CsolqJdIncj_H-3vm-3SnRm628FKbZr5mriji_DHnU0GdQ0Ls4zgi_WStLwSwdISXA%26sig%3DCg0ArKJSzIEA2Etn5by3EAE%26urlfix%3D1%26adurl%3D, line 116: ReferenceError: Mb is not defined
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+1496182787380	Marionette	INFO	New connections will no longer be accepted
+[Child 8167] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1496338730375	geckodriver	INFO	Listening on 127.0.0.1:50729
+1496338731469	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496338733089	Marionette	INFO	Listening on port 40131
+1496338733181	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.forbes.com/forbes/welcome/?toURL=https://forbes.com/&refURL=&referrer=, line 24: SyntaxError: missing ; before statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=2081455661&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsscu2csFNGUxHqdBjUTzg2pP_3xUIk6n9sjG9DfqTcBkv2TyRELUXdxFTR37NSU4NtWF-i75KF44E_tEjKUvwpzWwv6so4tFvKNa_teQRkQG-l8nzgiFJCZi8FrqL1IYw2W5xYWI_8iDR4tYub4k_e95iRZ7aA448jPbLLvzfW6lS-CLSmD4YIaPP-B2ou0aC_Nk6a6S_IsrNmJ2s-uqKAKXphIreaAWgZRllRdpdRRczfOkEwscOyNhe_CW1wMc10ifTcn%26sig%3DCg0ArKJSzFR_P2v41_WDEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=2081455661&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsscu2csFNGUxHqdBjUTzg2pP_3xUIk6n9sjG9DfqTcBkv2TyRELUXdxFTR37NSU4NtWF-i75KF44E_tEjKUvwpzWwv6so4tFvKNa_teQRkQG-l8nzgiFJCZi8FrqL1IYw2W5xYWI_8iDR4tYub4k_e95iRZ7aA448jPbLLvzfW6lS-CLSmD4YIaPP-B2ou0aC_Nk6a6S_IsrNmJ2s-uqKAKXphIreaAWgZRllRdpdRRczfOkEwscOyNhe_CW1wMc10ifTcn%26sig%3DCg0ArKJSzFR_P2v41_WDEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1487854331&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuHR3dY5mAcisN0g3uhyDLduMOfuuAKuJ38UgXO8fJZ6nTc7t6Mqw6couOIMW8fM-ZNbCA63XIftCUqb5HBVz_VO2yuXHNbYwXk7XhaffsnntWuOrCPH3PPmqYTjCP1w9HawndTZpT0dqW7auSkCL8AMTwy4PB10mjuR82J-kclBvxJkDb1MWDfCsuv6bS5F2qGOWc-CAATseB27svd2Tquy8pKG2XiAkqRr1s1gBvvSg5s7YQ6tX7n_-EBfWtOtI9hecI5%26sig%3DCg0ArKJSzJ39PCqEucKqEAE%26urlfix%3D1%26adurl%3D, line 80: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1487854331&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuHR3dY5mAcisN0g3uhyDLduMOfuuAKuJ38UgXO8fJZ6nTc7t6Mqw6couOIMW8fM-ZNbCA63XIftCUqb5HBVz_VO2yuXHNbYwXk7XhaffsnntWuOrCPH3PPmqYTjCP1w9HawndTZpT0dqW7auSkCL8AMTwy4PB10mjuR82J-kclBvxJkDb1MWDfCsuv6bS5F2qGOWc-CAATseB27svd2Tquy8pKG2XiAkqRr1s1gBvvSg5s7YQ6tX7n_-EBfWtOtI9hecI5%26sig%3DCg0ArKJSzJ39PCqEucKqEAE%26urlfix%3D1%26adurl%3D, line 80: unreachable code after return statement
+JavaScript error: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1487854331&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuHR3dY5mAcisN0g3uhyDLduMOfuuAKuJ38UgXO8fJZ6nTc7t6Mqw6couOIMW8fM-ZNbCA63XIftCUqb5HBVz_VO2yuXHNbYwXk7XhaffsnntWuOrCPH3PPmqYTjCP1w9HawndTZpT0dqW7auSkCL8AMTwy4PB10mjuR82J-kclBvxJkDb1MWDfCsuv6bS5F2qGOWc-CAATseB27svd2Tquy8pKG2XiAkqRr1s1gBvvSg5s7YQ6tX7n_-EBfWtOtI9hecI5%26sig%3DCg0ArKJSzJ39PCqEucKqEAE%26urlfix%3D1%26adurl%3D, line 128: ReferenceError: Mb is not defined
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 328: TypeError: b.btnPlayPause is null
+JavaScript warning: https://c1.rfihub.net/js/bcS.js, line 132: unreachable code after return statement
+JavaScript warning: http://c1.rfihub.net/js/bcS.js, line 132: unreachable code after return statement
+JavaScript error: http://adadvisor.net/adscores/g.js?sid=9276253823, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://c2.rfihub.net/static/js/vw_min-0.4.js, line 1: TypeError: e.contains is not a function
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: , line 0: uncaught exception: undefined
+1496339227202	Marionette	INFO	New connections will no longer be accepted
