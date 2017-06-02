@@ -11,10 +11,10 @@ def main():
     for filename in os.listdir(screenshots):
         print screenshots+'/'+filename
         img = cv2.imread(screenshots + '/' + filename)
-        copy = cv2.imread(screenshots + '/' + filename)
+        #copy = cv2.imread(screenshots + '/' + filename)
         gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
         edges = cv2.Canny(gray,50,150,apertureSize = 3)
-        rough_hough(filename, copy, edges)
+        #rough_hough(filename, copy, edges)
         hough(filename, img, edges)
 
 def rough_hough(filename, img, edges):
@@ -43,10 +43,13 @@ def hough(filename, img, edges):
             y1 = int(y0 + 1000*(a))
             x2 = int(x0 - 1000*(-b))
             y2 = int(y0 - 1000*(a))
-
-            cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
-            location = 'results/hough-'+filename+'.jpg'
-            cv2.imwrite(location,img)
+            rise = y2 - y1
+            run = x2 - x1
+            #if vertical or horizontal
+            if((run == 0) or (abs(float(rise)/(float(run))) < 0.01)):
+                cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
+                location = 'results/ModHough-'+filename+'.jpg'
+                cv2.imwrite(location,img)
 
 if __name__ == "__main__":
     main()
