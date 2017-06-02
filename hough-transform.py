@@ -1,23 +1,53 @@
-# Taken from http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
+# Adapted from http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
 
 import cv2
 import numpy as np
+import sys
+import os
 
-img = cv2.imread('screenshots/HBR0')
-gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-edges = cv2.Canny(gray,50,150,apertureSize = 3)
+def main():
+    screenshots = sys.argv[1] #Take in directory
+    print screenshots
+    for filename in os.listdir(screenshots):
+        print screenshots+'/'+filename
+        img = cv2.imread(screenshots + '/' + filename)
+        copy = cv2.imread(screenshots + '/' + filename)
+        gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+        edges = cv2.Canny(gray,50,150,apertureSize = 3)
+        rough_hough(filename, copy, edges)
+        hough(filename, img, edges)
 
-lines = cv2.HoughLines(edges,1,np.pi/180,200)
-for rho,theta in lines[0]:
-    a = np.cos(theta)
-    b = np.sin(theta)
-    x0 = a*rho
-    y0 = b*rho
-    x1 = int(x0 + 1000*(-b))
-    y1 = int(y0 + 1000*(a))
-    x2 = int(x0 - 1000*(-b))
-    y2 = int(y0 - 1000*(a))
+def rough_hough(filename, img, edges):
+    minLineLength = 100
+    maxLineGap = 10
+    lines = cv2.HoughLinesP(edges,1,np.pi/180,100,minLineLength,maxLineGap)
+    if(lines is None):
+        print "No lines were found."
+    else:
+        for x1,y1,x2,y2 in lines[0]:
+            cv2.line(img,(x1,y1),(x2,y2),(0,255,0),2)
+        location = 'results/rHough' + filename + '.jpg'
+        cv2.imwrite(location,img)
 
-    cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
+def hough(filename, img, edges):
+    lines = cv2.HoughLines(edges,1,np.pi/180,200)
+    if(lines is None):
+        print "No lines were found."
+    else:
+        for rho,theta in lines[0]:
+            a = np.cos(theta)
+            b = np.sin(theta)
+            x0 = a*rho
+            y0 = b*rho
+            x1 = int(x0 + 1000*(-b))
+            y1 = int(y0 + 1000*(a))
+            x2 = int(x0 - 1000*(-b))
+            y2 = int(y0 - 1000*(a))
 
-cv2.imwrite('results/houghlines2.jpg',img)
+            cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
+            location = 'results/hough-'+filename+'.jpg'
+            cv2.imwrite(location,img)
+
+if __name__ == "__main__":
+    main()
+
