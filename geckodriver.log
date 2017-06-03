@@ -294,3 +294,8 @@ JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigr
 JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
 JavaScript error: , line 0: uncaught exception: undefined
 1496339227202	Marionette	INFO	New connections will no longer be accepted
+1496445615082	geckodriver	INFO	Listening on 127.0.0.1:60675
+1496445616137	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496445617518	Marionette	INFO	Listening on port 42815
+1496445617558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1496445788293	Marionette	INFO	New connections will no longer be accepted

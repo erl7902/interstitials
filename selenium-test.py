@@ -13,9 +13,11 @@ caps["marionette"] = True;
 browser = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver', capabilities=caps)
 
 #TODO: Store this in a file & parse
+#Not all have interstitials - OCV and DSP
 sites = [("http://forbes.com", "forbes"),("http://hbr.com", "HBR"), 
     ("https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python", "techwalla"),
     ("http://www.dspguide.com/ch24/6.htm", "DSP"),
+    ("http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html", "OCV")
     ("https://www.theatlantic.com/business/archive/2013/02/how-airline-ticket-prices-fell-50-in-30-years-and-why-nobody-noticed/273506/", "ATL"),
     ("http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html", "LATimes"),
     ("https://www.searchenginejournal.com/counts-intrusive-interstitial/180023/", "SEJ")]
