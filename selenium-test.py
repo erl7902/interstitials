@@ -17,7 +17,7 @@ browser = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver', capabi
 sites = [("http://forbes.com", "forbes"),("http://hbr.com", "HBR"), 
     ("https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python", "techwalla"),
     ("http://www.dspguide.com/ch24/6.htm", "DSP"),
-    ("http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html", "OCV")
+    ("http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html", "OCV"),
     ("https://www.theatlantic.com/business/archive/2013/02/how-airline-ticket-prices-fell-50-in-30-years-and-why-nobody-noticed/273506/", "ATL"),
     ("http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html", "LATimes"),
     ("https://www.searchenginejournal.com/counts-intrusive-interstitial/180023/", "SEJ")]
@@ -32,7 +32,8 @@ for site in sites:
         location = site[1] + (str(x))
         browser.save_screenshot("screenshots/" + location)
         #scroll 1/iteration down the page
-        scrollTo = int(jump*(x+1)) 
+        scrollTo = int(jump*(x+1))
+	print scrollTo 
         script = "window.scrollTo(0,%d);" % scrollTo 
         browser.execute_script(script)
         #wait- try to catch interstitials
