@@ -5,6 +5,11 @@ import numpy as np
 import sys
 import os
 
+import distutils.dir_util
+
+#Make the screenshot folder if it doesn't exist
+distutils.dir_util.mkpath("results")
+
 def main():
     screenshots = sys.argv[1] #Take in directory
     print screenshots
