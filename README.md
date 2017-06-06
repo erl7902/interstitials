@@ -9,7 +9,7 @@ To run all scripts, you will need:
 * selenium's python driver installed, 
 * geckodriver installed,
 * a reasonably up-to-date version of Firefox, and
-* the following python libraries: scipy, nump, scikitlearn (specifically skimage), opencv, matplotlib.
+* the following python libraries: scipy, numpy, scikitlearn (specifically skimage), opencv, matplotlib.
 
 selenium-test.py
 ----------------
