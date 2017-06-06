@@ -10,13 +10,20 @@ distutils.dir_util.mkpath("screenshots")
 #start firefox with marionette
 caps = DesiredCapabilities.FIREFOX
 caps["marionette"] = True;
-browser = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver', capabilities=caps)
+profile = webdriver.FirefoxProfile()
+profile.set_preference("browser.cache.disk.enable", False)
+profile.set_preference("browser.cache.memory.enable", False)
+profile.set_preference("browser.cache.offline.enable", False)
+profile.set_preference("network.http.use-cache", False)
+browser = webdriver.Firefox(profile, executable_path='/usr/local/bin/geckodriver', capabilities=caps)
+#browser = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver', capabilities=caps)
 
 #TODO: Store this in a file & parse
 #Not all have interstitials - OCV and DSP
 sites = [("http://forbes.com", "forbes"),("http://hbr.com", "HBR"), 
     ("https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python", "techwalla"),
     ("http://www.dspguide.com/ch24/6.htm", "DSP"),
+    ("http://writingexplained.org/whoa-or-woah-difference", "WHOA"),
     ("http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html", "OCV"),
     ("https://www.theatlantic.com/business/archive/2013/02/how-airline-ticket-prices-fell-50-in-30-years-and-why-nobody-noticed/273506/", "ATL"),
     ("http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html", "LATimes"),

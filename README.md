@@ -1,6 +1,7 @@
 # interstitials
  Currently a giant mishmash of scripts to attempt to recognize interstitial ads on webpages.  
- Main two files are selenium-test, which crawls through for screenshots, and the hough-transform.
+ Main two files are selenium-test, which crawls through for screenshots, and the hough-transform.  
+ NOTE: will no longer be updating screenshots folder. Run selenium-test for most up-to-date data.
 
 requirements
 -------------
