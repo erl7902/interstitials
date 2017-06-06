@@ -299,3 +299,526 @@ JavaScript error: , line 0: uncaught exception: undefined
 1496445617518	Marionette	INFO	Listening on port 42815
 1496445617558	Marionette	WARN	TLS certificate errors will be ignored for this session
 1496445788293	Marionette	INFO	New connections will no longer be accepted
+1496700793672	geckodriver	INFO	Listening on 127.0.0.1:59049
+1496700794744	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496700796166	Marionette	INFO	Listening on port 39081
+1496700796257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1496700823777	geckodriver	INFO	Listening on 127.0.0.1:37397
+1496700824835	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496700826356	Marionette	INFO	Listening on port 34137
+1496700826448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=941744638&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssTtGy7xAeFPeKloH9mvlHoqg663IVDAOZxgzg_Vt-7ZdE1_Ku_jUl02twy6P84nWx8gCEdHMg8rZUiXxSXXIG-WYdc3jLvgXXFNMaLJxuV_q_EYBKFt0Zpk5AbJzMWFyKDEvNAcP7-b6Wk-J2LcstFdahe1OYib9-U8PrrFJDPRcyRsdOOWlwqIyYjbyBeQgRS7VWRxDQa3tcxeNrwxQZ6LnqOjaBoxZFVz6Vuev4RKfQoeMsKW4p5hRZ3dmx6-5GUnJz9%26sig%3DCg0ArKJSzJpQwF78IxptEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=941744638&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssTtGy7xAeFPeKloH9mvlHoqg663IVDAOZxgzg_Vt-7ZdE1_Ku_jUl02twy6P84nWx8gCEdHMg8rZUiXxSXXIG-WYdc3jLvgXXFNMaLJxuV_q_EYBKFt0Zpk5AbJzMWFyKDEvNAcP7-b6Wk-J2LcstFdahe1OYib9-U8PrrFJDPRcyRsdOOWlwqIyYjbyBeQgRS7VWRxDQa3tcxeNrwxQZ6LnqOjaBoxZFVz6Vuev4RKfQoeMsKW4p5hRZ3dmx6-5GUnJz9%26sig%3DCg0ArKJSzJpQwF78IxptEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://sdk.streamrail.com/player/sr.ads.js?cb=1496700985832, line 0: Successfully compiled asm.js code (total compilation time 2ms; not stored in cache (too small to benefit))
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript error: javascript:void;, line 1: SyntaxError: expected expression, got ';'
+JavaScript warning: http://c1.rfihub.net/js/bcS.js, line 132: unreachable code after return statement
+JavaScript warning: http://c1.rfihub.net/js/bcS.js, line 132: unreachable code after return statement
+JavaScript warning: http://c1.rfihub.net/js/bcS.js, line 132: unreachable code after return statement
+JavaScript warning: http://c1.rfihub.net/js/bcS.js, line 132: unreachable code after return statement
+JavaScript error: http://adadvisor.net/adscores/g.js?sid=9276253823, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://adadvisor.net/adscores/g.js?sid=9276253823, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://imasdk.googleapis.com/js/sdkloader/loader.js, line 42: TypeError: window.parent is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 328: TypeError: b.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1496701381297	Marionette	INFO	New connections will no longer be accepted
+[Child 4739] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1496703377188	geckodriver	INFO	Listening on 127.0.0.1:34479
+1496703378262	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496703379915	Marionette	INFO	Listening on port 44475
+1496703379990	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 5607] WARNING: pipe error: Broken pipe: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 5607] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400A8,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+1496703580648	geckodriver	INFO	Listening on 127.0.0.1:53797
+1496703581732	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496703583347	Marionette	INFO	Listening on port 45891
+1496703583447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=323650712&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstsCbT5Ac7XguKZgEBUMFOshHKHTCqts9ESlyxcMPe-GZUG9B_qpvDAqBbx2_PCjKX1MFSYpVKoNrf_1g1vYKHMlxlhypGSx2svfcRb1pLAOrCPvY47dMMjJKKy9Lg4PLdPdSFVZ8LTDJoBb7RpXifwR5D_Dxrrf5TL7P31ZBZVlj4qwfZhYU_6OAlApiwKFvxh0f3gsYqVAi8U9-xEH5kXH18ssDXYgdfrQAWfx3G1MY3OC38oA5aWuSQ3fSevU5OaU6Wc%26sig%3DCg0ArKJSzLX0Dt5Lu-3JEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=323650712&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstsCbT5Ac7XguKZgEBUMFOshHKHTCqts9ESlyxcMPe-GZUG9B_qpvDAqBbx2_PCjKX1MFSYpVKoNrf_1g1vYKHMlxlhypGSx2svfcRb1pLAOrCPvY47dMMjJKKy9Lg4PLdPdSFVZ8LTDJoBb7RpXifwR5D_Dxrrf5TL7P31ZBZVlj4qwfZhYU_6OAlApiwKFvxh0f3gsYqVAi8U9-xEH5kXH18ssDXYgdfrQAWfx3G1MY3OC38oA5aWuSQ3fSevU5OaU6Wc%26sig%3DCg0ArKJSzLX0Dt5Lu-3JEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.8484194765167741, line 7: SyntaxError: expected expression, got ';'
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+[Child 5868] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1496703718282	geckodriver	INFO	Listening on 127.0.0.1:53537
+1496703719364	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496703720968	Marionette	INFO	Listening on port 37277
+1496703721015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1106907575&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuXd6ownIuQfuF3QXojKYg8Y8ny5MfrMVs70WYLtrVFGSykit7zGVIkNDoYH__s9W9ykd8Ac7O-qXMu-l6cwnGQUyfvgNlqw8Jq7icxd4tyIYhyagievzdOMj30Wss8Uo4awf7InqASN3ysYjf6g66zfrl9X9MIcEzjyPtwyV4C9_nrr-U-0Cw901BkfdEvwgDdqWjlczy1LRsECXPlG3ONiLk8WvZBqu6crWHzppSRxXd_xIpKhAtBx7p9lVHw6yB7qwbF%26sig%3DCg0ArKJSzDVlrYu_DpTmEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1106907575&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuXd6ownIuQfuF3QXojKYg8Y8ny5MfrMVs70WYLtrVFGSykit7zGVIkNDoYH__s9W9ykd8Ac7O-qXMu-l6cwnGQUyfvgNlqw8Jq7icxd4tyIYhyagievzdOMj30Wss8Uo4awf7InqASN3ysYjf6g66zfrl9X9MIcEzjyPtwyV4C9_nrr-U-0Cw901BkfdEvwgDdqWjlczy1LRsECXPlG3ONiLk8WvZBqu6crWHzppSRxXd_xIpKhAtBx7p9lVHw6yB7qwbF%26sig%3DCg0ArKJSzDVlrYu_DpTmEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://playtime.tubemogul.com/ad_units/brandsights/brandsights_vpaidjs_v1.0/brandsights.js?feedURL=https%3A%2F%2Fas.tubemogul.com%2Ffeed%2Fsurvey%3Fid%3DUOJWHsX0N1qH17Ompobm&w=400&h=300, line 573: ReferenceError: tm_pr_survey is not defined
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_01496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_11496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_21496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_31496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_41496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_51496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_61496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_71496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_81496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_91496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_101496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_111496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_121496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python, line 1: TypeError: parent.window.beaconProcess_131496703819216127 is not a function
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+1496709581798	geckodriver	INFO	Listening on 127.0.0.1:38003
+1496709582863	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496709584274	Marionette	INFO	Listening on port 37447
+1496709584375	Marionette	WARN	TLS certificate errors will be ignored for this session
+1496709615895	geckodriver	INFO	Listening on 127.0.0.1:44903
+1496709616974	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496709618330	Marionette	INFO	Listening on port 43371
+1496709618403	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3998] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1496709665087	geckodriver	INFO	Listening on 127.0.0.1:57359
+1496709666149	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496709667568	Marionette	INFO	Listening on port 33239
+1496709667661	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=114621839&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvwFXJSOCWRNmYumXZEeNH0UCIMhrVhJzHnuWxhnAhq2sjeef3yU_XUfw1QP4bMVFvQByNX4ftWWyNUst11sj0PnErqBK5bMEhjeLEDzcU74Sggmu2sWqS_MERr-Uah5brJOxBK2pQ5DfkYMY4K9i00gOgJxiHyWgkDZfzAl0u0lOcby0K2fJPvp8wX9KSYDyI_yLpVx7m0YSGimxbg0LknvUKYN9Wa1J00zC1EjyGAx-yMhQGAgV83icBW9o6Ly_EFtDs9%26sig%3DCg0ArKJSzNImsgETrBRGEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=114621839&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsvwFXJSOCWRNmYumXZEeNH0UCIMhrVhJzHnuWxhnAhq2sjeef3yU_XUfw1QP4bMVFvQByNX4ftWWyNUst11sj0PnErqBK5bMEhjeLEDzcU74Sggmu2sWqS_MERr-Uah5brJOxBK2pQ5DfkYMY4K9i00gOgJxiHyWgkDZfzAl0u0lOcby0K2fJPvp8wX9KSYDyI_yLpVx7m0YSGimxbg0LknvUKYN9Wa1J00zC1EjyGAx-yMhQGAgV83icBW9o6Ly_EFtDs9%26sig%3DCg0ArKJSzNImsgETrBRGEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=1649, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+1496710106740	Marionette	INFO	New connections will no longer be accepted
+1496764753448	geckodriver	INFO	Listening on 127.0.0.1:35985
+1496764754501	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496764756041	Marionette	INFO	Listening on port 37191
+1496764756116	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x800006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x800006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x800006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1496764863400	geckodriver	INFO	Listening on 127.0.0.1:47185
+1496764864454	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496764865985	Marionette	INFO	Listening on port 37247
+1496764866071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1262341960&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstABNZs6HOP31JjXa08_BQKCcJmGgTDnGS0yKT5fWPn2kQlNoVy3IO1UVAjd7pWO8PP5l8cVlWbaqyMnxYY0coMlCczz4kqNHHggejYV9Fbrhk_KocZKItUVdJkPzOvUaQELeE5FvRIc6_-753AI7HNVqoS_2Jydu3_HnaexKgfi2dbjKBkX8G-4czk_y-_KqYhbCALiuYrJM4wFAHd_r8k1N8TFONn7LHRJK8kGdXzK3HKJJZd4o10IaUogH82HnuX6QXr%26sig%3DCg0ArKJSzLlr8ahc-SqMEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=1262341960&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstABNZs6HOP31JjXa08_BQKCcJmGgTDnGS0yKT5fWPn2kQlNoVy3IO1UVAjd7pWO8PP5l8cVlWbaqyMnxYY0coMlCczz4kqNHHggejYV9Fbrhk_KocZKItUVdJkPzOvUaQELeE5FvRIc6_-753AI7HNVqoS_2Jydu3_HnaexKgfi2dbjKBkX8G-4czk_y-_KqYhbCALiuYrJM4wFAHd_r8k1N8TFONn7LHRJK8kGdXzK3HKJJZd4o10IaUogH82HnuX6QXr%26sig%3DCg0ArKJSzLlr8ahc-SqMEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript warning: https://sp.pcnetwizard.com/sas/ads/prod/minJS/v2vEngine.js?v=2017569, line 1: unreachable code after return statement
+JavaScript error: http://static-cdn.vertamedia.com/static/jsvpaid.js?aid=58478&sid=0&cb=31051338, line 79: TypeError: e is undefined
+JavaScript error: http://static-cdn.vertamedia.com/static/jsvpaid.js?aid=68852&sid=0&cb=31051338, line 79: TypeError: e is undefined
+JavaScript error: http://static-cdn.vertamedia.com/static/jsvpaid.js?aid=58478&sid=0&cb=31051338, line 79: TypeError: e is undefined
+JavaScript error: http://static-cdn.vertamedia.com/static/jsvpaid.js?aid=58478&sid=0&cb=31051338, line 79: TypeError: e is undefined
+JavaScript warning: https://sp.pcnetwizard.com/sas/ads/prod/minJS/v2vEngine.js?v=2017569, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+1496765371165	Marionette	INFO	New connections will no longer be accepted
+1496768736323	geckodriver	INFO	Listening on 127.0.0.1:50879
+1496768737382	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496768738696	Marionette	INFO	Listening on port 42065
+1496768738792	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=219321336&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuDsQMXWsis5RuizOo3zQ98ZTS-p61FlGiPepCQT_QFa-zqbt3n0QeyHadVr9Pgx0fCRbErY0XDbl42urrsZmh2L6PAeahnuXyqQF3mLNjCS0Pw1HoR4l452iOF9enTAL_OFdUTBFcu9ZQDx1wTg0OKkXfG8aQpM09-JYZV0-tFdxg834Fa_X9dEauFUvwagv-KW5Ee1sLq4xu4fZt_NpGlUy7GDTQGuczNan2D-uZrchmLZQlNazSVwVQiqX9H3mVoSJEu%26sig%3DCg0ArKJSzL-wu5RYDvGDEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=219321336&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuDsQMXWsis5RuizOo3zQ98ZTS-p61FlGiPepCQT_QFa-zqbt3n0QeyHadVr9Pgx0fCRbErY0XDbl42urrsZmh2L6PAeahnuXyqQF3mLNjCS0Pw1HoR4l452iOF9enTAL_OFdUTBFcu9ZQDx1wTg0OKkXfG8aQpM09-JYZV0-tFdxg834Fa_X9dEauFUvwagv-KW5Ee1sLq4xu4fZt_NpGlUy7GDTQGuczNan2D-uZrchmLZQlNazSVwVQiqX9H3mVoSJEu%26sig%3DCg0ArKJSzL-wu5RYDvGDEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+1496769152394	geckodriver	INFO	Listening on 127.0.0.1:53397
+1496769153454	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496769154771	Marionette	INFO	Listening on port 37777
+1496769154868	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x80000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/PerformanceWatcher-content.js, line 49: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1496769189107	geckodriver	INFO	Listening on 127.0.0.1:56575
+1496769190168	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496769191623	Marionette	INFO	Listening on port 36557
+1496769191699	Marionette	WARN	TLS certificate errors will be ignored for this session
+1496769265567	geckodriver	INFO	Listening on 127.0.0.1:57937
+1496769266626	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496769268035	Marionette	INFO	Listening on port 43295
+1496769268144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1496769387901	geckodriver	INFO	Listening on 127.0.0.1:38613
+1496769388961	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496769390330	Marionette	INFO	Listening on port 40597
+1496769390386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=291218262&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstxz3Z0I2C3Utm2eiq_3pB85MZVb37Pqgg14zuDn48nWlphCOdgeRHl4oQB7sfBn4hvnjlHGhZ-siLOOpUJiZzpineqG-TOZr3fBbcjTTIcTzuDI2qZCLsgcsAyhVCL5zN-pUi59ob3kSSfs4E634hjdoewUGkOVoTpBvcT3C0J744Tlzu1Kv8Optc6hkJNf-LOzbCEV3OcWSa3K-11CJ5JOG-GfDJrcVQdo14jd8NUrjQot2n91FU9ala5MZHqQY5IBLyu%26sig%3DCg0ArKJSzLTYYRVEsCKgEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=291218262&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjstxz3Z0I2C3Utm2eiq_3pB85MZVb37Pqgg14zuDn48nWlphCOdgeRHl4oQB7sfBn4hvnjlHGhZ-siLOOpUJiZzpineqG-TOZr3fBbcjTTIcTzuDI2qZCLsgcsAyhVCL5zN-pUi59ob3kSSfs4E634hjdoewUGkOVoTpBvcT3C0J744Tlzu1Kv8Optc6hkJNf-LOzbCEV3OcWSa3K-11CJ5JOG-GfDJrcVQdo14jd8NUrjQot2n91FU9ala5MZHqQY5IBLyu%26sig%3DCg0ArKJSzLTYYRVEsCKgEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.6578270839186089, line 7: SyntaxError: expected expression, got ';'
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 328: TypeError: b.btnPlayPause is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+1496769896732	Marionette	INFO	New connections will no longer be accepted
+[Child 7627] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1496770154897	geckodriver	INFO	Listening on 127.0.0.1:42025
+1496770155975	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496770157409	Marionette	INFO	Listening on port 42449
+1496770157489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=872648424&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssSbRgYjH5MoJA6AJsQpdx_AdxM_oyz8GAy8YhIuW3eANUZQC46LB6JspUQRhslIvASTspJX9ygjR-4LX7AiZPa85c79og0B9Gn_qEkE2O63e5-LKIbsPtYDd3HSxoR56OxrvOH_XAEC1TLY7Z3EiLh7T3OZKSg79jH5xsmSQSWzFcmexlxidFIZ4OOmgwo_22-Fx1i54ry3NUITd7w4ct9S1UK4q1v1_gCIhR_immldWg1ExndWgAgI88EJncoH-W-tu6l%26sig%3DCg0ArKJSzBg-2D9RZRYHEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=872648424&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssSbRgYjH5MoJA6AJsQpdx_AdxM_oyz8GAy8YhIuW3eANUZQC46LB6JspUQRhslIvASTspJX9ygjR-4LX7AiZPa85c79og0B9Gn_qEkE2O63e5-LKIbsPtYDd3HSxoR56OxrvOH_XAEC1TLY7Z3EiLh7T3OZKSg79jH5xsmSQSWzFcmexlxidFIZ4OOmgwo_22-Fx1i54ry3NUITd7w4ct9S1UK4q1v1_gCIhR_immldWg1ExndWgAgI88EJncoH-W-tu6l%26sig%3DCg0ArKJSzBg-2D9RZRYHEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://player.mediabong.net/cta/299.js?rnd=0.3373435931370141, line 7: SyntaxError: expected expression, got ';'
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+1496770541115	geckodriver	INFO	Listening on 127.0.0.1:34035
+1496770542175	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1496770543581	Marionette	INFO	Listening on port 41151
+1496770543690	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=572147590&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssLrZHy0XSE2uX5kLuttyI0o-6TSWACZo9ZOV1dtPQkcFFd7R8Yov8cAXOrJNwxfonMuf9OLmJJLdsk7C2WaEF1o1J8SIuHdoscpkUd8DGIsR8xf32f1ivCvZCdg9j7oljuEN6R48ooDE2n4bd7aGOrxRoy7-EfENNGagXGti7_8oPIt03NCDcDdw9gzHhfj1Uu0y_o2ucxWKo54HcBttZaAYw2OWU7HwjoYVMSC3MXFXp5D-dkm_CiAfM9iYVDFIb_1QuZ%26sig%3DCg0ArKJSzArFcaswiy-JEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+JavaScript warning: https://player.mediabong.net/syncroll/1487/loader.js?rnd=572147590&url=techwalla.com&imp=https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjssLrZHy0XSE2uX5kLuttyI0o-6TSWACZo9ZOV1dtPQkcFFd7R8Yov8cAXOrJNwxfonMuf9OLmJJLdsk7C2WaEF1o1J8SIuHdoscpkUd8DGIsR8xf32f1ivCvZCdg9j7oljuEN6R48ooDE2n4bd7aGOrxRoy7-EfENNGagXGti7_8oPIt03NCDcDdw9gzHhfj1Uu0y_o2ucxWKo54HcBttZaAYw2OWU7HwjoYVMSC3MXFXp5D-dkm_CiAfM9iYVDFIb_1QuZ%26sig%3DCg0ArKJSzArFcaswiy-JEAE%26urlfix%3D1%26adurl%3D, line 100: unreachable code after return statement
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://www.techwalla.com/ui/js/infiniteScroll.js?v=971a3a3aa356597504f4f17bab3fb7a33e62458d, line 1: TypeError: document.head.querySelector(...) is null
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: http://player-cdn.beachfrontmedia.com/players/io-player-js/2/2/3/js/io-player.js?bfioAppID=d27f523d-03e5-4b45-fcab-a0b0a148ddc5&bfioAdUnitID=null&invuid=pkp4v&acctuid=jr052&vstat_level=1&vstat_freq=25000, line 1: TypeError: e is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 619: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 310: TypeError: a.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 328: TypeError: b.btnPlayPause is null
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 619: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 619: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 619: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 619: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: http://r.sascdn.com/video/controller-vpaid.js?nwid=2148, line 619: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html, line 4737: TypeError: subject_window is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1496771038049	Marionette	INFO	New connections will no longer be accepted
+[Child 8780] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[Child 8780] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IKSm1A/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown

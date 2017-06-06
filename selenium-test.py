@@ -28,14 +28,22 @@ for site in sites:
     #for scrolling height
     height = browser.execute_script("return document.body.scrollHeight")
     jump = height / iterations
+    prev = -1
     for x in range (0, iterations):
+        # scroll 1/iteration down the page
+        offset = browser.execute_script("return window.pageYOffset")
+        scrollTo = int(jump*(x+1))
+        # This keeps us from grabbing multiple screencaps of the same area
+        # Due to weird issues with page height being reported incorrectly
+        # TODO: revisit. 
+        if((offset == prev) and (x > (iterations/2))):
+            #print "breakpoint"            
+            break
         location = site[1] + (str(x))
         browser.save_screenshot("screenshots/" + location)
-        #scroll 1/iteration down the page
-        scrollTo = int(jump*(x+1))
-	print scrollTo 
         script = "window.scrollTo(0,%d);" % scrollTo 
         browser.execute_script(script)
+        prev = offset
         #wait- try to catch interstitials
         time.sleep(3)
 
