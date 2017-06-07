@@ -10,19 +10,14 @@ from itertools import groupby
 # Little helper function to split the input. 
 # Assumes whitespace separated.
 # "http://urlhere urlname" -> ["http://urlhere", "urlname"]
-def read_sites(filename): 
+def readSites(filename): 
     sites = []
     with open(filename) as infile:
         for line in infile: 
             sites.append(line.split())
 
-
-def main():
-    sites = read_sites(sys.argv[1]) #Take in file
-
-    #Make the screenshot folder if it doesn't exist
+def runSelenium(sites):
     distutils.dir_util.mkpath("screenshots")
-
     #start firefox with marionette
     caps = DesiredCapabilities.FIREFOX
     caps["marionette"] = True;
@@ -60,7 +55,8 @@ def main():
             #wait- try to catch interstitials
             time.sleep(3)
 
-    browser.quit()
+    browser.quit()    
 
 if __name__ == "__main__":
-    main()
+    
+    runSelenium(readSites(sys.argv[1]))
