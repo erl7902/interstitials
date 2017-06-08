@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import time
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -50,7 +52,7 @@ def runSelenium(sites):
                 #print "breakpoint"            
                 break
             location = site[1] + (str(x))
-            browser.save_screenshot("screenshots/" + location)
+            browser.save_screenshot("screenshots/" + location + ".png")
             script = "window.scrollTo(0,%d);" % scrollTo 
             browser.execute_script(script)
             prev = offset

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import distutils.dir_util
 from seleniumTest import runSelenium
 from seleniumTest import readSites
@@ -40,7 +42,7 @@ def pruneLines(candidates):
     # If line appears more than once....keep it) 
     # Intersect lists and see what pops up
     for lineList in candidates:
-        print lineList
+        print (lineList)
          
 		
 

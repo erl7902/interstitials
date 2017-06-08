@@ -6,7 +6,7 @@
 requirements
 ------------- 
 To run all scripts, you will need:  
-* Python2.7
+* Python 3
 * geckodriver installed (https://github.com/mozilla/geckodriver),
 * a reasonably up-to-date version of Firefox, and
 * the following python libraries (pip): selenium, scipy, numpy, scikit-image, opencv-python, matplotlib.
