@@ -20,7 +20,7 @@ interstitials.py
  interstitials.py [sitelist] [opt]
  ```
  Takes in the list of sites - see list.txt for example  
- Add a third argument (can be anything) to skip the selenium crawl  
+ Add a second argument (can be anything) to skip the selenium crawl  
  Goes through, runs selenium-test, then feeds results into hough-transform
 
 selenium-test.py
