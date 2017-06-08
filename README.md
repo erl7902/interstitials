@@ -4,13 +4,12 @@
  NOTE: will no longer be updating screenshots folder. Run selenium-test for most up-to-date data.
 
 requirements
--------------
-Everything should work on python3. Some things may not work on python2.
-To run all scripts, you will need: 
-* selenium's python driver installed, 
-* geckodriver installed,
+------------- 
+To run all scripts, you will need:  
+* Python2.7
+* geckodriver installed (https://github.com/mozilla/geckodriver),
 * a reasonably up-to-date version of Firefox, and
-* the following python libraries: scipy, numpy, scikitlearn (specifically skimage), opencv, matplotlib.
+* the following python libraries (pip): selenium, scipy, numpy, scikit-image, opencv-python, matplotlib.
 
 
 interstitials.py
