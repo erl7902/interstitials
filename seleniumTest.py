@@ -15,7 +15,9 @@ def readSites(filename):
     with open(filename) as infile:
         for line in infile: 
             sites.append(line.split())
+    return sites
 
+#TODO make target directory customizable
 def runSelenium(sites):
     distutils.dir_util.mkpath("screenshots")
     #start firefox with marionette
