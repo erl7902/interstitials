@@ -17,11 +17,12 @@ interstitials.py
 ----------------
  Leverages selenium-test.py and hough-transform.py  
  ```
- interstitials.py [sitelist] [opt]
+ interstitials.py list [--s]
  ```
  Takes in the list of sites - see list.txt for example  
- Add a third argument (can be anything) to skip the selenium crawl  
- Goes through, runs selenium-test, then feeds results into hough-transform
+ Add the optional --s flag to skip crawling the sites  
+ Goes through, runs selenium-test, then feeds results into hough-transform  
+ Currently just returns lines, will update to return yes/no for each site
 
 selenium-test.py
 ----------------

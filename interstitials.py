@@ -4,6 +4,7 @@ from seleniumTest import readSites
 from houghTrans import houghLines
 import sys
 import os
+import argparse
 
 # Take in filename of list of sites.
 # Run selenium.
@@ -11,10 +12,14 @@ import os
 # Take those results, analyze using heuristics.
 # Spit out a yes or no for each group of images.
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("sites", help="filename for list of sites to use")
+    parser.add_argument("--s", help="include to skip selenium step", action="store_true")
+    args = parser.parse_args()
     # Run selenium
-    sites = readSites(sys.argv[1])
+    sites = readSites(args.sites)
     # Fast & dirty option to skip selenium by adding more args
-    if(len(sys.argv) < 3):
+    if(not args.s):
         runSelenium(sites)
     # Now we have screenshots located at ./screenshots
     # TODO: make directory customizable. Low priority
