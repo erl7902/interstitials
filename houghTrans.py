@@ -16,6 +16,7 @@ def houghLines(lst):
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         edges = cv2.Canny(gray, 50, 150, apertureSize=3)
         result.append(getHoughLines(img, edges))
+    return result
 
 # Returns rho and theta values representing the lines
 # Only the lines that are vertical or horizontal
@@ -26,7 +27,7 @@ def getHoughLines(img, edges):
     if(lines is None):
         return None
     else:
-        for rho,theta in lines: 
+        for rho,theta in lines[0]: 
             if((theta == 0) or (abs(1.57 - theta) < 0.005)):
                 result.append((rho,theta))
     return result

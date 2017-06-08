@@ -12,6 +12,17 @@ To run all scripts, you will need:
 * a reasonably up-to-date version of Firefox, and
 * the following python libraries: scipy, numpy, scikitlearn (specifically skimage), opencv, matplotlib.
 
+
+interstitials.py
+----------------
+ Leverages selenium-test.py and hough-transform.py  
+ ```
+ interstitials.py [sitelist] [opt]
+ ```
+ Takes in the list of sites - see list.txt for example  
+ Add a third argument (can be anything) to skip the selenium crawl  
+ Goes through, runs selenium-test, then feeds results into hough-transform
+
 selenium-test.py
 ----------------
  Leverages selenium, geckodriver, and firefox.  

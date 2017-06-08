@@ -13,14 +13,16 @@ import os
 def main():
     # Run selenium
     sites = readSites(sys.argv[1])
-    runSelenium(sites)
+    # Fast & dirty option to skip selenium by adding more args
+    if(len(sys.argv) < 3):
+        runSelenium(sites)
     # Now we have screenshots located at ./screenshots
     # TODO: make directory customizable. Low priority
     for site in sites:
-        images = pullImages(sites[1], "screenshots")
+        images = pullImages(site[1], "screenshots")
         # Now we have a group. Throw that into Hough
         # Bonus: also filters to only include horiz/vertical lines
-        candidates = houghLines(images)
+        candidates = houghLines(images)     
         # From candidates, we want to see the ones that persist
         persists = pruneLines(candidates)
 
@@ -33,7 +35,7 @@ def pruneLines(candidates):
     # If line appears more than once....keep it) 
     # Intersect lists and see what pops up
     for lineList in candidates:
-        print linelist
+        print lineList
          
 		
 
@@ -52,7 +54,7 @@ def pullImages(substr, dirToSearch):
     result = []
     for filename in os.listdir(dirToSearch):
         if substr in filename: 
-            results.append(dirToSearch + "/" + filename)
+            result.append(dirToSearch + "/" + filename)
     return result
         
     
