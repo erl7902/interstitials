@@ -24,7 +24,7 @@ def houghLines(lst):
 # No visual feedback
 def getHoughLines(img, edges):
     result = []
-    lines = cv2.HoughLines(edges, 1, np.pi/180, 350)
+    lines = cv2.HoughLines(edges, 1, np.pi/180, 400)
     if(lines is None):
         return result
     else:
@@ -36,7 +36,7 @@ def getHoughLines(img, edges):
                 
 # TODO: Remove? Keep in for debugging?
 def hough(filename, img, edges):
-    lines = cv2.HoughLines(edges,1,np.pi/180,350)
+    lines = cv2.HoughLines(edges,1,np.pi/180,400)
     if(lines is None):
         print ("No lines were found.")
     else:

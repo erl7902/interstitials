@@ -20,9 +20,8 @@ def main():
     parser.add_argument("sites", help="filename for list of sites to use")
     parser.add_argument("--s", help="include to skip selenium step", action="store_true")
     args = parser.parse_args()
-    # Run selenium
     sites = readSites(args.sites)
-    # Fast & dirty option to skip selenium by adding more args
+    # Skip selenium step by adding arg
     if(not args.s):
         runSelenium(sites)
     # Now we have screenshots located at ./screenshots
@@ -32,34 +31,36 @@ def main():
         # Now we have a group. Throw that into Hough
         # Bonus: also filters to only include horiz/vertical lines
         candidates = houghLines(images)     
-        # From candidates, we want to see the ones that persist
-        print ("-------")        
-        print (site[1])
-        print ("-------")
-        persists = pruneLines(candidates)
+        # From candidates, we want to see the ones that persist       
+        print (site[1] + ": %f" % (getConfidence(candidates)))
 
 
 # So we want to find duplicates. 
 # A duplicate is a line that persists over multiple images
-# However, there may be some fluctuation on theta & rho values
-def pruneLines(candidates):
+# TODO: there may be some fluctuation on theta & rho values
+def getConfidence(candidates):
+    maxConf = 7
+    confidence = 0
     results = []
     #If line appears more than once....keep it) 
     #Intersect lists and see what pops up
     results = Counter(list(chain(*candidates)))
     if (results):
         pruned = {k:v for k,v in results.items() if v > 1}
-        print (pruned)
-    else: 
-        print ("{}")
-    
-
-#rho, theta values
-def isSame(line1, line2):
-    if(abs(line1[0] - line2[0]) < 2):
-        if(abs(line1[1] - line2[1]) < 0.005):
-            return True
-    return False 
+        prunedMore = {k:v for k,v in results.items() if v > 4}
+        looseVert = {(rho,theta):v for (rho,theta),v in pruned.items() if theta  == 0}
+        looseHorz = {(rho,theta):v for (rho,theta),v in pruned.items() if ((abs(1.57 - theta) < .005))}
+        tightVert = {k:v for k,v in looseVert.items() if v > 4}
+        tightHorz = {k:v for k,v in looseHorz.items() if v > 4}
+        if(pruned):
+            confidence += 1
+        if(prunedMore): 
+            confidence += 2 
+        if(len(looseVert) > 1 and len(looseHorz) > 1): 
+            confidence += 2
+        if(len(tightVert) > 1 and len(tightHorz) > 1):
+            confidence += 2
+    return ((float(confidence)) / (float(maxConf)))
         
 
 # Pull the list of images we need for each part
@@ -71,8 +72,6 @@ def pullImages(substr, dirToSearch):
         if substr in filename: 
             result.append(dirToSearch + "/" + filename)
     return result
-        
-    
 
 
 if __name__ == "__main__":
