@@ -26,12 +26,13 @@ def getHoughLines(img, edges):
     result = []
     lines = cv2.HoughLines(edges, 1, np.pi/180, 350)
     if(lines is None):
-        return None
+        return result
     else:
-        for rho,theta in lines[0]: 
-            if((theta == 0) or (abs(1.57 - theta) < 0.005)):
-                result.append((rho,theta))
-    return result
+        for l in lines: 
+            for rho,theta in l:
+                if((theta == 0) or (abs(1.57 - theta) < 0.005)):
+                    result.append((rho,theta))
+        return result
                 
 # TODO: Remove? Keep in for debugging?
 def hough(filename, img, edges):
@@ -39,23 +40,24 @@ def hough(filename, img, edges):
     if(lines is None):
         print ("No lines were found.")
     else:
-        for rho,theta in lines[0]:
-            a = np.cos(theta)
-            b = np.sin(theta)
-            x0 = a*rho
-            y0 = b*rho
-            x1 = int(x0 + 1000*(-b))
-            y1 = int(y0 + 1000*(a))
-            x2 = int(x0 - 1000*(-b))
-            y2 = int(y0 - 1000*(a))
-            rise = y2 - y1
-            run = x2 - x1
-            #if vertical or horizontal
-            if((theta == 0) or (abs(1.57 - theta) < 0.005)):
-                #Visualization part. Mostly for debugging, now.                 
-                cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
-                location = 'results/Hough2-'+filename+'.jpg'
-                cv2.imwrite(location,img)
+        for l in lines: 
+            for rho,theta in l:
+                a = np.cos(theta)
+                b = np.sin(theta)
+                x0 = a*rho
+                y0 = b*rho
+                x1 = int(x0 + 1000*(-b))
+                y1 = int(y0 + 1000*(a))
+                x2 = int(x0 - 1000*(-b))
+                y2 = int(y0 - 1000*(a))
+                rise = y2 - y1
+                run = x2 - x1
+                #if vertical or horizontal
+                if((theta == 0) or (abs(1.57 - theta) < 0.005)):
+                    #Visualization part. Mostly for debugging, now.                 
+                    cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
+                    location = 'results/Hough2-'+filename
+                    cv2.imwrite(location,img)
 
 def main():
     #Make the screenshot folder if it doesn't exist

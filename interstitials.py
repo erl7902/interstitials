@@ -7,6 +7,8 @@ from houghTrans import houghLines
 import sys
 import os
 import argparse
+from itertools import chain
+from collections import Counter
 
 # Take in filename of list of sites.
 # Run selenium.
@@ -31,6 +33,9 @@ def main():
         # Bonus: also filters to only include horiz/vertical lines
         candidates = houghLines(images)     
         # From candidates, we want to see the ones that persist
+        print ("-------")        
+        print (site[1])
+        print ("-------")
         persists = pruneLines(candidates)
 
 
@@ -39,12 +44,15 @@ def main():
 # However, there may be some fluctuation on theta & rho values
 def pruneLines(candidates):
     results = []
-    # If line appears more than once....keep it) 
-    # Intersect lists and see what pops up
-    for lineList in candidates:
-        print (lineList)
-         
-		
+    #If line appears more than once....keep it) 
+    #Intersect lists and see what pops up
+    results = Counter(list(chain(*candidates)))
+    if (results):
+        pruned = {k:v for k,v in results.items() if v > 1}
+        print (pruned)
+    else: 
+        print ("{}")
+    
 
 #rho, theta values
 def isSame(line1, line2):
