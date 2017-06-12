@@ -5,7 +5,7 @@ http://www.dspguide.com/ch24/6.htm DSP NO
 http://writingexplained.org/whoa-or-woah-difference WHOA YES
 http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html OCV NO
 https://www.theatlantic.com/business/archive/2013/02/how-airline-ticket-prices-fell-50-in-30-years-and-why-nobody-noticed/273506/ ATL NO
-http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html LATimes MAYBE
+http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html LATimes YES
 https://www.searchenginejournal.com/counts-intrusive-interstitial/180023/ SEJ YES
 https://cs.rit.edu/~zjb/courses/630-summer/ ZJB NO
 http://www.wasdkeyboards.com/mechanical-keyboard-guide#comparison WASD YES
