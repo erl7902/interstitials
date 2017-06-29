@@ -11,7 +11,7 @@ from itertools import groupby
 
 # Little helper function to split the input. 
 # Assumes whitespace separated.
-# "urlname http://urlhere" -> ["urlname, "http://urlhere"]
+# "urlname http://urlhere" -> ["urlname", "http://urlhere"]
 def readSites(filename): 
     sites = []
     with open(filename) as infile:
