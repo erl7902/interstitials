@@ -1,0 +1,7 @@
+selenium
+scipy
+numpy
+scikit-image
+opencv-python
+matplotlib
+tldextract

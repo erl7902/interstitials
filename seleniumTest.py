@@ -11,7 +11,7 @@ from itertools import groupby
 
 # Little helper function to split the input. 
 # Assumes whitespace separated.
-# "http://urlhere urlname" -> ["http://urlhere", "urlname"]
+# "urlname http://urlhere" -> ["urlname, "http://urlhere"]
 def readSites(filename): 
     sites = []
     with open(filename) as infile:
@@ -36,7 +36,7 @@ def runSelenium(sites):
     iterations = 16
 
     for site in sites:
-        browser.get(site[0])
+        browser.get(site[1])
         #for scrolling height
         height = browser.execute_script("return document.body.scrollHeight")
         jump = height / iterations
@@ -51,7 +51,7 @@ def runSelenium(sites):
             if((offset == prev) and (x > (iterations/2))):
                 #print "breakpoint"            
                 break
-            location = site[1] + (str(x))
+            location = site[0] + (str(x))
             browser.save_screenshot("screenshots/" + location + ".png")
             script = "window.scrollTo(0,%d);" % scrollTo 
             browser.execute_script(script)

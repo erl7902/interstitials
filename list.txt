@@ -1,11 +1,13 @@
-http://forbes.com forbes YES
-http://hbr.com HBR YES
-https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python techwalla YES
-http://www.dspguide.com/ch24/6.htm DSP NO
-http://writingexplained.org/whoa-or-woah-difference WHOA YES
-http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html OCV NO
-https://www.theatlantic.com/business/archive/2013/02/how-airline-ticket-prices-fell-50-in-30-years-and-why-nobody-noticed/273506/ ATL NO
-http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html LATimes MAYBE
-https://www.searchenginejournal.com/counts-intrusive-interstitial/180023/ SEJ YES
-https://cs.rit.edu/~zjb/courses/630-summer/ ZJB NO
-http://www.wasdkeyboards.com/mechanical-keyboard-guide#comparison WASD YES
+forbes http://forbes.com YES
+HBR http://hbr.com YES
+TECHW https://www.techwalla.com/articles/how-to-convert-int-to-string-in-python YES
+DSP http://www.dspguide.com/ch24/6.htm NO
+WHOA http://writingexplained.org/whoa-or-woah-difference YES
+OCV http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html NO
+ATL https://www.theatlantic.com/business/archive/2013/02/how-airline-ticket-prices-fell-50-in-30-years-and-why-nobody-noticed/273506/ NO
+LAT http://www.latimes.com/local/california/la-me-ln-irvine-immigrants-20170511-htmlstory.html YES
+SEJ https://www.searchenginejournal.com/counts-intrusive-interstitial/180023/ YES
+ZJB https://cs.rit.edu/~zjb/courses/630-summer/ NO
+WASD http://www.wasdkeyboards.com/mechanical-keyboard-guide#comparison WASD YES
+DDI http://www.michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/ NO
+SEAT http://www.seattletimes.com/seattle-news/crime/officer-involved-shooting-in-magnuson-park-leaves-3-children-in-protective-custody/ YES
