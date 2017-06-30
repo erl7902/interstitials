@@ -32,13 +32,14 @@ def main():
     # TODO: make directory customizable. Low priority
     for site in sites:
         images = pullImages(site[0], "screenshots")
-        # Now we have a group. Throw that into Hough
-        # Bonus: also filters to only include horiz/vertical lines
-        candidates = houghLines(images)
-        diffs = compare_all(images)    
-        # From candidates, we want to see the ones that persist
-        percentage = getConfidence(candidates, diffs)       
-        print (finalResult(percentage) + " " + site[0] + " " + site[1][:20]+"...")
+        if(len(images) > 0):
+            # Now we have a group. Throw that into Hough
+            # Bonus: also filters to only include horiz/vertical lines
+            candidates = houghLines(images)
+            diffs = compare_all(images)    
+            # From candidates, we want to see the ones that persist
+            percentage = getConfidence(candidates, diffs)       
+            print (finalResult(percentage) + " " + site[0] + " " + site[1][:20]+"...")
 
 
 def finalResult(percentage):

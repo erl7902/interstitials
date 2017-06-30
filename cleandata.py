@@ -9,7 +9,6 @@ def flip(url):
     url = url.split(".")
     return ('.'.join(url[::-1]))
 
-
 def main():
     theinput = sys.argv[1]
     outloc = sys.argv[2]
@@ -38,14 +37,6 @@ def main():
                     url = (flip(url))
                 else:
                     url = (flip(url[0:first_slash])) #+ url[first_slash:]) just want the sub, domain, and TLD
-                    '''try:                
-                        req = requests.head("http://" + url, timeout = 1)
-                        rs = requests.head("https://" + url, timeout = 1)
-                        rnumber = req.status_code
-                        print rnumber
-                        rsnumber = rs.status_code
-                        print rsnumber
-                        if ((rnumber < 300 and rsnumber > 199) or (rsnumber < 300 and rsnumber > 199)):'''
                 extracted = tldextract.extract(url)
                 url = extracted.domain + '.' + extracted.suffix              
                 r.write(url + "\n")

@@ -36,7 +36,10 @@ def runSelenium(sites):
     iterations = 16
 
     for site in sites:
-        browser.get(site[1])
+        try: 
+            browser.get(site[1])
+        except: 
+            continue
         #for scrolling height
         height = browser.execute_script("return document.body.scrollHeight")
         jump = height / iterations
