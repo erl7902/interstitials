@@ -31,7 +31,7 @@ def main():
     # Now we have screenshots located at ./screenshots
     # TODO: make directory customizable. Low priority
     for site in sites:
-        images = pullImages(site[0], "screenshots")
+        images = pullImages(site[0], "screenshots/" + site[0]) #will remove redundancy when everything is in the new system
         if(len(images) > 0):
             # Now we have a group. Throw that into Hough
             # Bonus: also filters to only include horiz/vertical lines
@@ -39,7 +39,7 @@ def main():
             diffs = compare_all(images)    
             # From candidates, we want to see the ones that persist
             percentage = getConfidence(candidates, diffs)       
-            print (finalResult(percentage) + " " + site[0] + " " + site[1][:20]+"...")
+            print (str(round(percentage, 3)) + " " +  finalResult(percentage) + " " + site[0] + " " + site[1])#[:25]+"...")
 
 
 def finalResult(percentage):
@@ -52,7 +52,6 @@ def finalResult(percentage):
 
 # So we want to find duplicates. 
 # A duplicate is a line that persists over multiple images
-# TODO: there may be some fluctuation on theta & rho values
 def getConfidence(candidates, diffs):
     maxConf = 9
     confidence = 0
