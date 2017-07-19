@@ -42,7 +42,7 @@ def runSelenium(sites):
             browser.get(site[1])
             content = browser.page_source
             soup = BeautifulSoup(content, "lxml")
-            with open("htmlgrabs/" + site[0], "w+") as f:
+            with open("htmlgrabs/" + site[0] + ".html", "w+") as f:
                 for line in soup.prettify('utf-8', 'minimal'):
                     f.write(str(line))
             #for scrolling height

@@ -11,3 +11,4 @@ ZJB https://cs.rit.edu/~zjb/courses/630-summer/ NO
 WASD http://www.wasdkeyboards.com/mechanical-keyboard-guide#comparison YES
 DDI http://www.michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/ NO
 SEAT http://www.seattletimes.com/seattle-news/crime/officer-involved-shooting-in-magnuson-park-leaves-3-children-in-protective-custody/ YES
+keno http://www.keno.com/ NO
