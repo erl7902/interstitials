@@ -15,8 +15,10 @@ from bs4 import BeautifulSoup
 def readSites(filename): 
     sites = []
     with open(filename) as infile:
-        for line in infile: 
-            sites.append(line.split())
+        for line in infile:
+            res = line.split()
+            if(len(res) > 1):
+                sites.append(line.split())
     return sites
 
 #TODO make target directory customizable
@@ -49,7 +51,6 @@ def runSelenium(sites):
             height = browser.execute_script("return document.body.scrollHeight")
             jump = height / iterations
             prev = -1
-            distutils.dir_util.mkpath(site[0])
             for x in range (0, iterations):
                 # scroll 1/iteration down the page
                 offset = browser.execute_script("return window.pageYOffset")

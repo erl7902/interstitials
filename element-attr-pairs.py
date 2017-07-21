@@ -8,7 +8,7 @@ with open("htmelements.txt") as elem:
 	for line in elem:
 		elements.append(line.strip())
 		
-files = [('htmlgrabs/' + f)  for f in listdir('htmlgrabs')]
+files = [('htmlgrabs/' + f)  for f in listdir('htmlgrabs') if f.endswith('.html')]
 
 
 for filename in files: 

@@ -11,4 +11,24 @@ ZJB https://cs.rit.edu/~zjb/courses/630-summer/ NO
 WASD http://www.wasdkeyboards.com/mechanical-keyboard-guide#comparison YES
 DDI http://www.michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/ NO
 SEAT http://www.seattletimes.com/seattle-news/crime/officer-involved-shooting-in-magnuson-park-leaves-3-children-in-protective-custody/ YES
+MIC https://mic.com/articles/182540/people-are-sharing-this-video-of-john-mccain-defending-obama-against-scared-white-people-in-2008#.6Sodpmhp4 YES
+
+
 keno http://www.keno.com/ NO
+ethicalsuperstore http://www.ethicalsuperstore.com/products/benecos/benecos-nail-varnish---vintage-red---9ml/ NO
+eufaulatribune http://www2.eufaulatribune.com/lifestyles/2012/sep/19/eufaula-fest-feature-diaper-dash-pet-parade-ar-4573611/ NO
+euronews http://www.euronews.com/2012/08/24 NO
+eurotrib http://www.eurotrib.com/comments/2011/6/12/203452/959/121 NO
+eventhubs http://www.eventhubs.com/guides/2012/jul/31/elizabeth-persona-4-arena-moves-combos-strategy-guide/ NO
+everysport http://www.everysport.com/sport/handboll/2011-2012/406 NO
+experiencenottinghamshire http://news.experiencenottinghamshire.com/win-a-pair-of-tickets-to-summer-nights-film-festival-at-wollaton-hall/ NO
+explayboybunnies http://explayboybunnies.com/forums/profile.php?mode=register&agreed=true NO
+ezilon http://www.ezilon.com/articles/articles/15501/1/Do-You-Know-What-Options-You-Have NO
+fairhaven https://www.fairhaven.com/ NO
+familycookingtips http://familycookingtips.com/refreshments/traditional-sangria-are-there-health-benefits-137 NO
+fanfou http://fanfou.com/statuses/B6UHQ0fM3lk NO
+farecompare http://www.farecompare.com/es/vuelos/Ontario-ONT/Ciudad_de_M%C3%A9xico-MEX/market.html NO
+fasthealth http://www.fasthealth.com/drug_encyclopedia/drugsearch_results.php?query=AK-NEFRIN&station=html NO
+fauowlaccess http://www.fauowlaccess.com/blogs/owlthingsconsidered/2012/04/fau-defensive-end-kevin-cyrille-agrees-to-terms-with-minnesota-vikings.aspx NO
+
+

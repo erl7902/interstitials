@@ -89,9 +89,13 @@ def compare_all(files):
     return results.count(0)
 
 def compare_images(img1, img2):
-    diff = img1 - img2
-    m_norm = sum(abs(diff))
-    return m_norm
+    try: 
+        diff = img1 - img2
+        m_norm = sum(abs(diff))
+        return m_norm
+    except: 
+        return (-1)
+
 
 
 # Pull the list of images we need for each part
