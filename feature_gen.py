@@ -24,7 +24,7 @@ def mass_feature_gen(folder):
             if f.endswith('out.txt'):
                 features = element_attr_feature_gen(root + "/" + f, d_dict)
                 newfile = root + "/" + f.split('.')[0] + ".data" 
-                with open(newfile, "w+") as output: 
+                with open(newfile, "wb") as output: 
                     pickle.dump(features,output)
                 #mass_features.append(features)
     #print mass_features
