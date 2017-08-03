@@ -9,9 +9,22 @@ To run all scripts, you will need:
 * Python 3
 * geckodriver installed (https://github.com/mozilla/geckodriver),
 * a reasonably up-to-date version of Firefox, and
-* the following python libraries (pip): selenium, scipy, numpy, scikit-image, opencv-python, matplotlib.  
-Run ```pip install -r requirements.txt``` to install all necessary python libraries.
+* To run ```pip install -r requirements.txt``` to install all necessary python libraries.
 
+
+traindata.py
+-------------
+ Leverages sklearn  
+ VERY basic - completely dependent on feature_gen.py  
+ ```
+ interstitials.py data-folder
+ ```
+
+feature_gen.py
+--------------
+ Currently uses the HTML dumps from interstitials/selenium  
+ Will create .data files for each out.txt generated from interstitials/selenium  
+ This pickled file is used by traindata to train the model.
 
 interstitials.py
 ----------------
@@ -37,7 +50,7 @@ hough-transform.py
  Leverages opencv and numpy  
  Takes in the directory of the images   
  ``` 
- hough-transform.py [image-dir]
+ hough-transform.py image-dir
  ```
  Will dump them in a 'results' directory. Will make one if you don't have one  
  Optional: the two commented lines in the main pertain to a rough hough transformation.  
