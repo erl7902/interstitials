@@ -41,17 +41,15 @@ def mass_feature_gen(folder):
                             ys.append(1)
                             ground_truth.append(1)
                             mass_features.append(order(features, ordered_lst))
-                        #ys.append(path[-1].lower())
-                        
-                    #ground_truth.append(truth)
-    #classifier = svm.SVC(gamma=0.001)
+
     classifier = label_propagation.LabelSpreading()
-    # We learn the digits on the first half of the digits
     n_samples = len(mass_features)
-    #classifier.fit(mass_features[:n_samples // 2], ground_truth[:n_samples // 2])
     classifier.fit(mass_features, ys)
 
-    # Now predict the value of the digit on the second half:
+    # Now predict the value
+    # This....uses the training data
+    # Not actually accurate for confusion matrix
+    # TODO: don't do this anymore. 
     expected = ground_truth
     predicted = classifier.predict(mass_features)
 
